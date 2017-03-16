@@ -1,4 +1,6 @@
 "use strict";
+/*globals module */
+
 function deepRead(obj, path){
 	var found = true;
 
@@ -92,11 +94,10 @@ function quizas(obj, path) {
 					});
 
 					return plucked;
-				})
-
+				});
 			}
 		}
-	})
+	});
 }
 
 module.exports = quizas;

@@ -7,7 +7,9 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha"
+    "unit-test": "mocha",
+    "lint": "jshint src/",
+    "test": "npm run lint && npm run unit-test"
   },
   "repository": {
     "type": "git",
@@ -21,6 +23,7 @@
   "homepage": "https://github.com/aintgoin2goa/quizas#readme",
   "devDependencies": {
     "chai": "^3.5.0",
+    "jshint": "^2.9.4",
     "mocha": "^3.2.0"
   }
 }

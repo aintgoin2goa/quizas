@@ -1,0 +1,26 @@
+{
+  "name": "quizas",
+  "version": "1.0.0",
+  "description": "A sort-of monad for reading values from objects",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aintgoin2goa/quizas.git"
+  },
+  "author": "aintgoin2goa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aintgoin2goa/quizas/issues"
+  },
+  "homepage": "https://github.com/aintgoin2goa/quizas#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}

@@ -54,11 +54,25 @@ describe('Quizas', function(){
 		var result = quizas(fixtures.ftStream, 'items').pluck('title', 'relativeUrl', ['primaryTag.prefLabel', 'label'])
 		expect(result).to.be.an('array');
 		expect(result.length).to.equal(fixtures.ftStream.items.length);
-		console.log(result);
 		result.forEach(function(item){
 			expect(item).to.have.property('title');
 			expect(item).to.have.property('relativeUrl');
 			expect(item).to.have.property('label');
 		})
 	});
+
+	it('Should be able to grab a specific item from an array', function(){
+		var expected = {
+			"idV1": "NTlhNzEyMzMtZjBjZi00Y2U1LTg0ODUtZWVjNmEyYmU1NzQ2-QnJhbmRz",
+			"prefLabel": "Fast FT",
+			"attributes": [],
+			"taxonomy": "brand",
+			"url": "https://www.ft.com/fastft",
+			"primary": "brand",
+			"relativeUrl": "/fastft"
+		};
+
+		var result = quizas(fixtures.ftStream, 'items.0.metadata.2').value;
+		expect(result).to.deep.equal(expected);
+	})
 });

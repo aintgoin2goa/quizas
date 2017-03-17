@@ -30,7 +30,7 @@ var customLaunchers = {
 	},
 	sl_android_6: {
 		base: 'SauceLabs',
-		browserName: 'chrome',
+		browserName: 'Chrome',
 		appiumVersion: '1.5.3',
 		deviceName: 'Samsung Galaxy S6 Device',
 		platformVersion: '6.0',

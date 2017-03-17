@@ -9,19 +9,19 @@ var customLaunchers = {
 		version: '11'
 	},
 	sl_ie_9: {
-		base: 'Saucelabs',
+		base: 'SauceLabs',
 		browserName: 'internet explorer',
 		platform: 'Windows 7',
 		version: '9.0'
 	},
 	sl_edge_13: {
-		base: 'Saucelabs',
+		base: 'SauceLabs',
 		browserName: 'MicrosoftEdge',
 		platform: 'Windows 10',
 		version: '13.10586'
 	},
 	sl_ios_9: {
-		base: 'Saucelabs',
+		base: 'SauceLabs',
 		browserName: 'Safari',
 		appiumVersion: '1.5.3',
 		deviceName: 'iPhone 6 Device',
@@ -29,7 +29,7 @@ var customLaunchers = {
 		platformName: 'iOS'
 	},
 	sl_android_6: {
-		base: 'Saucelabs',
+		base: 'SauceLabs',
 		browserName: 'chrome',
 		appiumVersion: '1.5.3',
 		deviceName: 'Samsung Galaxy S6 Device',
@@ -65,13 +65,20 @@ module.exports = function(config) {
 
 	var ciConfig = {
 		sauceLabs: {
-			testName: 'Quizas tests'
+			testName: 'Quizas tests',
+			recordScreenshots: false,
+			connectOptions: {
+				port: 5757,
+				logfile: 'sauce_connect.log'
+			}
 		},
-		reporters: ['dots', 'saucelabs'],
+		reporters: ['progress', 'saucelabs'],
 		singleRun: true,
 		customLaunchers: customLaunchers,
 		browsers: Object.keys(customLaunchers),
-		concurrency: 5
+		concurrency: 5,
+		captureTimeout: 120000,
+		public: 'public'
 	};
 
 	var mergedConfig = Object.assign({}, configBase, process.env.CI ? ciConfig : localConfig);

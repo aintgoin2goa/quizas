@@ -8,34 +8,34 @@ var customLaunchers = {
 		platform: 'Windows 8.1',
 		version: '11'
 	},
-	sl_ie_9: {
-		base: 'SauceLabs',
-		browserName: 'internet explorer',
-		platform: 'Windows 7',
-		version: '9.0'
-	},
-	sl_edge_13: {
-		base: 'SauceLabs',
-		browserName: 'MicrosoftEdge',
-		platform: 'Windows 10',
-		version: '13.10586'
-	},
-	sl_ios_9: {
-		base: 'SauceLabs',
-		browserName: 'Safari',
-		appiumVersion: '1.5.3',
-		deviceName: 'iPhone 6 Device',
-		platformVersion: '9.3',
-		platformName: 'iOS'
-	},
-	sl_android_6: {
-		base: 'SauceLabs',
-		browserName: 'Chrome',
-		appiumVersion: '1.5.3',
-		deviceName: 'Samsung Galaxy S6 Device',
-		platformVersion: '6.0',
-		platformName: 'Android'
-	}
+	// sl_ie_9: {
+	// 	base: 'SauceLabs',
+	// 	browserName: 'internet explorer',
+	// 	platform: 'Windows 7',
+	// 	version: '9.0'
+	// },
+	// sl_edge_13: {
+	// 	base: 'SauceLabs',
+	// 	browserName: 'MicrosoftEdge',
+	// 	platform: 'Windows 10',
+	// 	version: '13.10586'
+	// },
+	// sl_ios_9: {
+	// 	base: 'SauceLabs',
+	// 	browserName: 'Safari',
+	// 	appiumVersion: '1.5.3',
+	// 	deviceName: 'iPhone 6 Device',
+	// 	platformVersion: '9.3',
+	// 	platformName: 'iOS'
+	// },
+	// sl_android_6: {
+	// 	base: 'SauceLabs',
+	// 	browserName: 'Chrome',
+	// 	appiumVersion: '1.5.3',
+	// 	deviceName: 'Samsung Galaxy S6 Device',
+	// 	platformVersion: '6.0',
+	// 	platformName: 'Android'
+	// }
 }
 
 

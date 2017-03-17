@@ -77,7 +77,7 @@ module.exports = function(config) {
 		customLaunchers: customLaunchers,
 		browsers: Object.keys(customLaunchers),
 		concurrency: 5,
-		captureTimeout: 120000,
+		captureTimeout: (1000 * 60) * 5,
 		public: 'public'
 	};
 

@@ -30,9 +30,9 @@ var customLaunchers = {
 	},
 	sl_android_6: {
 		base: 'SauceLabs',
-		"browserName": "Browser",
-		"deviceName": "Samsung Galaxy S4 Emulator",
-		"platformVersion": "4.4",
+		"browserName": "chrome",
+		"deviceName": "Samsung Galaxy S7 Device",
+		"platformVersion": "6.0",
 		"platformName": "Android",
 		"deviceOrientation": "portrait"
 	}

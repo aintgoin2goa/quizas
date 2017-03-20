@@ -22,12 +22,9 @@ var customLaunchers = {
 	// },
 	sl_ios_9: {
 		base: 'SauceLabs',
-		browserName: 'Safari',
-		appiumVersion: '1.5.3',
-		deviceName: 'iPhone 6 Device',
+		browserName: 'iphone',
 		platformVersion: '9.3',
-		platformName: 'iOS',
-		deviceOrientation: 'portrait'
+		platformName: 'OS X 10.9',
 	},
 	// sl_android_6: {
 	// 	base: 'SauceLabs',

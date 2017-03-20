@@ -31,7 +31,7 @@ var customLaunchers = {
 	sl_android_6: {
 		base: 'SauceLabs',
 		"browserName": "Browser",
-		"deviceName": "Google Nexus 7 HD Emulator",
+		"deviceName": "Samsung Galaxy S4 Emulator",
 		"platformVersion": "4.4",
 		"platformName": "Android",
 		"deviceOrientation": "portrait"

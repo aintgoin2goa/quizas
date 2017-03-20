@@ -2,38 +2,30 @@
 // Generated on Fri Mar 17 2017 08:29:30 GMT+0000 (GMT)
 
 var customLaunchers = {
-	// sl_ie_11: {
-	// 	base: 'SauceLabs',
-	// 	browserName: 'internet explorer',
-	// 	platform: 'Windows 8.1',
-	// 	version: '11.0'
-	// },
-	// sl_ie_9: {
-	// 	base: 'SauceLabs',
-	// 	browserName: 'internet explorer',
-	// 	platform: 'Windows 7',
-	// 	version: '9.0'
-	// },
-	// sl_edge_13: {
-	// 	base: 'SauceLabs',
-	// 	browserName: 'MicrosoftEdge',
-	// 	platform: 'Windows 10',
-	// 	version: '13.10586'
-	// },
+	sl_ie_11: {
+		base: 'SauceLabs',
+		browserName: 'internet explorer',
+		platform: 'Windows 8.1',
+		version: '11.0'
+	},
+	sl_ie_9: {
+		base: 'SauceLabs',
+		browserName: 'internet explorer',
+		platform: 'Windows 7',
+		version: '9.0'
+	},
+	sl_edge_13: {
+		base: 'SauceLabs',
+		browserName: 'MicrosoftEdge',
+		platform: 'Windows 10',
+		version: '13.10586'
+	},
 	sl_ios_9: {
 		base: 'SauceLabs',
 		"browserName": "Safari",
 		"deviceName": "iPhone 6 Plus",
 		"platformVersion": "9.3",
 		"platformName": "iOS",
-		"deviceOrientation": "portrait"
-	},
-	sl_android_6: {
-		base: 'SauceLabs',
-		"browserName": "chrome",
-		"deviceName": "Samsung Galaxy S7 Device",
-		"platformVersion": "6.0",
-		"platformName": "Android",
 		"deviceOrientation": "portrait"
 	}
 }

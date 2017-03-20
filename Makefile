@@ -32,3 +32,4 @@ ifndef NPM_EMAIL
 endif
 	echo "${NPM_USERNAME}\n${NPM_PASSWORD}\n${NPM_EMAIL}" | npm login
 	npm version $(subst v,,${CIRCLE_TAG})
+	npm publish

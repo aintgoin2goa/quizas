@@ -22,9 +22,11 @@ var customLaunchers = {
 	// },
 	sl_ios_9: {
 		base: 'SauceLabs',
-		browserName: 'iphone',
-		platformVersion: '9.3',
-		platformName: 'OS X 10.9',
+		"browserName": "Safari",
+		"deviceName": "iPhone 6 Plus",
+		"platformVersion": "9.3",
+		"platformName": "iOS",
+		"deviceOrientation": "portrait"
 	},
 	// sl_android_6: {
 	// 	base: 'SauceLabs',

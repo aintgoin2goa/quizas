@@ -28,14 +28,14 @@ var customLaunchers = {
 		"platformName": "iOS",
 		"deviceOrientation": "portrait"
 	},
-	// sl_android_6: {
-	// 	base: 'SauceLabs',
-	// 	browserName: 'Chrome',
-	// 	appiumVersion: '1.5.3',
-	// 	deviceName: 'Samsung Galaxy S6 Device',
-	// 	platformVersion: '6.0',
-	// 	platformName: 'Android'
-	// }
+	sl_android_6: {
+		base: 'SauceLabs',
+		"browserName": "Browser",
+		"deviceName": "Google Nexus 7 HD Emulator",
+		"platformVersion": "4.4",
+		"platformName": "Android",
+		"deviceOrientation": "portrait"
+	}
 }
 
 

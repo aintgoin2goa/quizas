@@ -30,6 +30,8 @@ endif
 ifndef NPM_EMAIL
 	$(error NPM_EMAIL is not defined)
 endif
+	git config --global user.email ${NPM_EMAIL}
+	git config --global user.name ${NPM_USERNAME}
 	echo "${NPM_USERNAME}\n${NPM_PASSWORD}\n${NPM_EMAIL}" | npm login
 	npm version $(subst v,,${CIRCLE_TAG})
 	npm publish

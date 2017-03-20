@@ -2,7 +2,7 @@
   "name": "quizas",
   "version": "1.0.0-alpha2",
   "description": "A sort-of monad for reading values from objects",
-  "main": "index.js",
+  "main": "src/quizas",
   "directories": {
     "test": "test"
   },

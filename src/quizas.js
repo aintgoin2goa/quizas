@@ -78,17 +78,16 @@ function quizas(obj, path) {
 				return result.value.map(function(item){
 					var plucked = {};
 					props.forEach(function(prop){
-						var sourceProp, targetProp;
 						if(Array.isArray(prop)){
-							sourceProp = prop[0];
-							targetProp = prop[1];
-						}else{
-							sourceProp = targetProp = prop;
+							prop = {source:prop[0],target:prop[1]};
+						}else if(typeof prop === 'string'){
+							prop = {source:prop, target:prop};
 						}
 
-						var value = deepRead(item, sourceProp);
-						if(value.found){
-							deepWrite(plucked, targetProp, value.value);
+						var q = quizas(item, prop.source);
+						var value = prop.pluck ? q.pluck.apply(q, prop.pluck) : q.value;
+						if(value){
+							deepWrite(plucked, prop.target, value);
 						}
 
 					});

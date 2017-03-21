@@ -98,5 +98,20 @@ describe('Quizas', function(){
 		var expected = {brand: {name: fixtures.esArticle._source.annotations[0].prefLabel}};
 		quizas(fixtures.esArticle, '_source.annotations.0.prefLabel').copy(target, 'brand.name');
 		expect(target).to.deep.equal(expected);
+	});
+
+	it('Should be able to extract values from an object', function(){
+		const result = quizas(fixtures.esArticle).extract(
+			['_id', 'id'],
+			['_source.title', 'title'],
+			['_source.comments.enabled', 'comments']
+		);
+		const expected = {
+			id: fixtures.esArticle._id,
+			title: fixtures.esArticle._source.title,
+			comments: fixtures.esArticle._source.comments.enabled
+		};
+
+		expect(result).to.deep.equal(expected);
 	})
 });

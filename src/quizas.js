@@ -1,6 +1,10 @@
 "use strict";
 /*globals module */
 
+function isObject(obj){
+	return obj === Object(obj);
+}
+
 function deepRead(obj, path){
 	var found = true;
 
@@ -48,7 +52,9 @@ function deepWrite(obj, path, value){
 }
 
 function quizas(obj, path) {
-	var result = deepRead(obj, path);
+	var result = typeof path === 'undefined' ?
+		{found: true, value:obj} :
+		deepRead(obj, path);
 
 	return Object.defineProperties({}, {
 		'value' : {
@@ -94,6 +100,30 @@ function quizas(obj, path) {
 
 					return plucked;
 				});
+			}
+		},
+		'extract': {
+			value: function(){
+				if(!result.found || !isObject(result.value)){
+					return {};
+				}
+
+				var props = [].slice.apply(arguments);
+				var extracted = {};
+				props.forEach(function(prop){
+					if(typeof prop === 'string'){
+						prop = {source:prop,target:prop};
+					}else if(Array.isArray(prop)){
+						prop = {source:prop[0], target:prop[1]};
+					}
+
+					var value = deepRead(result.value, prop.source);
+					if(value.found){
+						deepWrite(extracted, prop.target, value.value);
+					}
+				});
+
+				return extracted;
 			}
 		}
 	});

@@ -1,0 +1,213 @@
+{
+  "_index": "v3_api_v2-2016-12-20",
+  "_type": "item",
+  "_id": "2dfba1e6-d923-11e6-944b-e7eb37a6aa8e",
+  "_version": 40,
+  "found": true,
+  "_source": {
+    "type": "article",
+    "id": "2dfba1e6-d923-11e6-944b-e7eb37a6aa8e",
+    "title": "Authers’ Note: glass half-full",
+    "alternativeTitles": {
+      "promotionalTitle": "Authers’ Note: glass half-full"
+    },
+    "standfirst": "The FT’s daily newsletter on the world of investment",
+    "byline": "John Authers",
+    "publishReference": "tid_qzja4kpybz",
+    "publishedDate": "2017-01-13T00:24:25.000Z",
+    "initialPublishedDate": "2017-01-13T00:24:25Z",
+    "annotations": [
+      {
+        "predicate": "http://www.ft.com/ontology/classification/isClassifiedBy",
+        "id": "dbb0bdae-1f0c-11e4-b0cb-b2227cce2b54",
+        "apiUrl": "http://api.ft.com/brands/dbb0bdae-1f0c-11e4-b0cb-b2227cce2b54",
+        "prefLabel": "Financial Times",
+        "type": "BRAND",
+        "directType": "http://www.ft.com/ontology/product/Brand",
+        "idV2": "dbb0bdae-1f0c-11e4-b0cb-b2227cce2b54"
+      },
+      {
+        "predicate": "http://www.ft.com/ontology/annotation/hasAuthor",
+        "id": "1df96af8-f117-3bcc-afde-6fd4b1676462",
+        "apiUrl": "http://api.ft.com/people/1df96af8-f117-3bcc-afde-6fd4b1676462",
+        "prefLabel": "John Authers",
+        "type": "PERSON",
+        "directType": "http://www.ft.com/ontology/person/Person",
+        "idV2": "1df96af8-f117-3bcc-afde-6fd4b1676462"
+      },
+      {
+        "predicate": "http://www.ft.com/ontology/classification/isClassifiedBy",
+        "id": "d969d76e-f8f4-34ae-bc38-95cfd0884740",
+        "apiUrl": "http://api.ft.com/things/d969d76e-f8f4-34ae-bc38-95cfd0884740",
+        "prefLabel": "Markets",
+        "type": "SECTION",
+        "directType": "http://www.ft.com/ontology/Section",
+        "idV2": "d969d76e-f8f4-34ae-bc38-95cfd0884740"
+      },
+      {
+        "predicate": "http://www.ft.com/ontology/classification/isClassifiedBy",
+        "id": "e569e23b-0c3e-3d20-8ed0-4c17b8177c05",
+        "apiUrl": "http://api.ft.com/things/e569e23b-0c3e-3d20-8ed0-4c17b8177c05",
+        "prefLabel": "Comment",
+        "type": "GENRE",
+        "directType": "http://www.ft.com/ontology/Genre",
+        "idV2": "e569e23b-0c3e-3d20-8ed0-4c17b8177c05"
+      },
+      {
+        "predicate": "http://www.ft.com/ontology/classification/isPrimarilyClassifiedBy",
+        "id": "d969d76e-f8f4-34ae-bc38-95cfd0884740",
+        "apiUrl": "http://api.ft.com/things/d969d76e-f8f4-34ae-bc38-95cfd0884740",
+        "prefLabel": "Markets",
+        "type": "SECTION",
+        "directType": "http://www.ft.com/ontology/Section",
+        "idV2": "d969d76e-f8f4-34ae-bc38-95cfd0884740"
+      },
+      {
+        "predicate": "http://www.ft.com/ontology/annotation/mentions",
+        "id": "e8d84937-2890-383a-b96d-c0d37d5888a3",
+        "apiUrl": "http://api.ft.com/things/e8d84937-2890-383a-b96d-c0d37d5888a3",
+        "prefLabel": "Equity Valuation",
+        "type": "TOPIC",
+        "directType": "http://www.ft.com/ontology/Topic",
+        "idV2": "e8d84937-2890-383a-b96d-c0d37d5888a3"
+      },
+      {
+        "predicate": "http://www.ft.com/ontology/annotation/mentions",
+        "id": "b6242868-05f0-3424-8202-61cfe7d433a0",
+        "apiUrl": "http://api.ft.com/organisations/b6242868-05f0-3424-8202-61cfe7d433a0",
+        "prefLabel": "The Goldman Sachs Group, Inc.",
+        "type": "ORGANISATION",
+        "directType": "http://www.ft.com/ontology/company/PublicCompany",
+        "idV2": "b6242868-05f0-3424-8202-61cfe7d433a0"
+      },
+      {
+        "predicate": "http://www.ft.com/ontology/annotation/mentions",
+        "id": "36d2852b-1cb9-3c71-936e-8d755747048f",
+        "apiUrl": "http://api.ft.com/organisations/36d2852b-1cb9-3c71-936e-8d755747048f",
+        "prefLabel": "Facebook, Inc.",
+        "type": "ORGANISATION",
+        "directType": "http://www.ft.com/ontology/company/PublicCompany",
+        "idV2": "36d2852b-1cb9-3c71-936e-8d755747048f"
+      },
+      {
+        "predicate": "http://www.ft.com/ontology/annotation/mentions",
+        "id": "725dccba-7ef1-3c44-9234-e39b6c191829",
+        "apiUrl": "http://api.ft.com/organisations/725dccba-7ef1-3c44-9234-e39b6c191829",
+        "prefLabel": "BusinessWeek",
+        "type": "ORGANISATION",
+        "directType": "http://www.ft.com/ontology/organisation/Organisation",
+        "idV2": "725dccba-7ef1-3c44-9234-e39b6c191829"
+      },
+      {
+        "predicate": "http://www.ft.com/ontology/annotation/mentions",
+        "id": "564f277d-20a4-390a-87cc-e1ecc05b0f3d",
+        "apiUrl": "http://api.ft.com/people/564f277d-20a4-390a-87cc-e1ecc05b0f3d",
+        "prefLabel": "Gary M. Silverman",
+        "type": "PERSON",
+        "directType": "http://www.ft.com/ontology/person/Person",
+        "idV2": "564f277d-20a4-390a-87cc-e1ecc05b0f3d"
+      },
+      {
+        "predicate": "http://www.ft.com/ontology/annotation/mentions",
+        "id": "835d4c95-1993-3b30-9567-1e59cad5fdac",
+        "apiUrl": "http://api.ft.com/people/835d4c95-1993-3b30-9567-1e59cad5fdac",
+        "prefLabel": "Daniel Kahneman",
+        "type": "PERSON",
+        "directType": "http://www.ft.com/ontology/person/Person",
+        "idV2": "835d4c95-1993-3b30-9567-1e59cad5fdac"
+      },
+      {
+        "predicate": "http://www.ft.com/ontology/annotation/mentions",
+        "id": "8e3ddb18-0714-365e-8cd5-24eb07d84453",
+        "apiUrl": "http://api.ft.com/people/8e3ddb18-0714-365e-8cd5-24eb07d84453",
+        "prefLabel": "Sharmin Mossavar-Rahmani",
+        "type": "PERSON",
+        "directType": "http://www.ft.com/ontology/person/Person",
+        "idV2": "8e3ddb18-0714-365e-8cd5-24eb07d84453"
+      },
+      {
+        "predicate": "http://www.ft.com/ontology/annotation/mentions",
+        "id": "73cc33b5-d0cb-3815-8347-bc49e1ddbd5c",
+        "apiUrl": "http://api.ft.com/organisations/73cc33b5-d0cb-3815-8347-bc49e1ddbd5c",
+        "prefLabel": "The Financial Times Ltd.",
+        "type": "ORGANISATION",
+        "directType": "http://www.ft.com/ontology/organisation/Organisation",
+        "idV2": "73cc33b5-d0cb-3815-8347-bc49e1ddbd5c"
+      }
+    ],
+    "webUrl": "http://www.ft.com/cms/s/3/2dfba1e6-d923-11e6-944b-e7eb37a6aa8e.html",
+    "provenance": [
+      "http://api.ft.com/content/items/v1/2dfba1e6-d923-11e6-944b-e7eb37a6aa8e",
+      "http://api.ft.com/enrichedcontent/2dfba1e6-d923-11e6-944b-e7eb37a6aa8e"
+    ],
+    "originatingParty": "FT",
+    "storyPackage": [],
+    "standout": {
+      "editorsChoice": false,
+      "exclusive": false,
+      "scoop": false
+    },
+    "realtime": false,
+    "comments": {
+      "enabled": true
+    },
+    "canBeSyndicated": "yes",
+    "_lastUpdatedDateTime": "2017-03-18T11:15:43.430Z",
+    "url": "https://www.ft.com/content/2dfba1e6-d923-11e6-944b-e7eb37a6aa8e",
+    "metadata": [
+      {
+        "attributes": [],
+        "taxonomy": "sections",
+        "primary": "section",
+        "primaryTag": true,
+        "teaserTag": true,
+        "idV1": "NzE=-U2VjdGlvbnM=",
+        "prefLabel": "Markets",
+        "url": "https://www.ft.com/markets"
+      },
+      {
+        "attributes": [
+          {
+            "key": "headshot",
+            "value": "fthead-v1:john-authers"
+          }
+        ],
+        "taxonomy": "authors",
+        "primary": "brand",
+        "idV1": "Q0ItMDAwMDkyMw==-QXV0aG9ycw==",
+        "prefLabel": "John Authers",
+        "url": "https://www.ft.com/markets/john-authers"
+      },
+      {
+        "attributes": [],
+        "taxonomy": "genre",
+        "idV1": "OA==-R2VucmVz",
+        "prefLabel": "Comment",
+        "url": "https://www.ft.com/stream/genreId/OA==-R2VucmVz"
+      },
+      {
+        "attributes": [],
+        "taxonomy": "topics",
+        "idV1": "MTJiMGRjMjMtMjc0Ni00MDkyLWI2MDUtZmJhZGY5YTNlYjU0-VG9waWNz",
+        "prefLabel": "Equity Valuation",
+        "url": "https://www.ft.com/topics/themes/Equity_Valuation"
+      }
+    ],
+    "mainImage": {
+      "title": "",
+      "description": "",
+      "url": "http://prod-upp-image-read.ft.com/bce5205a-bd92-11e6-8b45-b8b81dd5d080",
+      "width": 2048,
+      "height": 1152,
+      "ratio": 1.7777777777777777
+    },
+    "bodyXML": "<img src=\"http://com.ft.imagepublish.prod.s3.amazonaws.com/bce5205a-bd92-11e6-8b45-b8b81dd5d080\" width=\"2048\" height=\"1152\"><p>There are some things on which we can all agree. <a href=\"https://www.ft.com/content/e4230062-b1ba-11e6-9c37-5787335499a0?emailid=56cef8b84218200300714481&amp;segmentId=e2b21419-1ad0-96bc-fb17-88413ea973e2\">US stocks are very expensive</a>, and the US post-crisis expansion has been going on for a long time (albeit very slowly). But that still, according to Goldman Sachs' private wealth management group, means that US stocks are a buy. The glass is half-full, not half-empty.</p><p>I am nervous about this logic, but must concede that the US has been the most expensive stock market for years and has continued to rise. I interviewed Sharmin Mossavar-Rahmani, chief investment officer of Goldman Sachs’ private wealth management group, today on Facebook live. You can visit the video on <a href=\"https://www.facebook.com/financialtimes/videos/10154864462430750/\">Facebook</a>:</p><p><img alt=\"\" src=\"https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Femail-platform-ftcom-manual.s3.amazonaws.com%2Fda85228c-2f5b-4d75-a26c-6aaaef5c1c45?source=ft-email-manual&amp;width=1024&amp;fit=scale-down\" width=\"600\"></p><p>Here is her argument, using the graphs from the report. First, there is no sign of euphoria, even after the month of Trump-led excitement that followed the election. Instead the talk is still of decline, and Sharmin even drew a parallel between a famous BusinessWeek cover from 1979 and a more recent illustration in the Financial Times:</p><p><img src=\"https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Femail-platform-ftcom-manual.s3.amazonaws.com%2F21e60dfe-559a-47aa-bb37-21345de59739?source=ft-email-manual&amp;width=1024&amp;fit=scale-down\" width=\"600\"></p><p>That we are publishing such images could be viewed as a classic contrarian buying signal. Next comes the acknowledgment that US equity valuations are now in the tenth decile (meaning that they are more expensive than they have been 90 per cent of the time). This normally means that it is a terrible time to buy:</p><p><img src=\"https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Femail-platform-ftcom-manual.s3.amazonaws.com%2F41d3e874-01b2-4dfa-93d3-72097dde3bd5?source=ft-email-manual&amp;width=1024&amp;fit=scale-down\" width=\"600\"></p><p>The problem is that expensive assets can always grow more expensive. And since the US market entered the ninth decile, by Goldman’s metrics, it has gained another 38 per cent. Further, it is reasonable to pay a higher multiple when yields and inflation are low:</p><p><img src=\"https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Femail-platform-ftcom-manual.s3.amazonaws.com%2Ffdab5713-e3b9-459f-87b1-3029ef271cf4?source=ft-email-manual&amp;width=1024&amp;fit=scale-down\" width=\"600\"></p><p>And the low bond yields of the present, combined with the low disparity between equity and bond returns of recent years, create a reasonable expectation that equities can move forward:</p><p><img src=\"https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Femail-platform-ftcom-manual.s3.amazonaws.com%2F855a5238-aee3-4117-a1a5-a3af5e1858f8?source=ft-email-manual&amp;width=1024&amp;fit=scale-down\" width=\"600\"></p><p>Not only this, but while rates are low, stocks do well until bonds reach an inflection point, apparently. (As there have not been all that many inflection points in the bond market this is a hard one to gauge, but here is Goldman's version of the effect). Rises in bond yields only cease to be good for stocks once they have passed 3.9 per cent. We are still only at 2.4 per cent:</p><p><img src=\"https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Femail-platform-ftcom-manual.s3.amazonaws.com%2Fcaf6f451-40b0-4082-ba14-8940b2dd4e76?source=ft-email-manual&amp;width=1024&amp;fit=scale-down\" width=\"600\"></p><p>Then there is an argument from the Trump effect. Any cut in the effective tax rate will be good for shareholders of US companies. Naturally, much devil is in the detail. Different companies pay different effective rates at present, and an attempt to level the terms of trade by imposing a destination tax would create some major losers among the bigger importers. But the logic that lower tax, all else being equal, is good for stocks, and that lower tax is very likely, is unassailable.</p><p><img src=\"https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Femail-platform-ftcom-manual.s3-eu-west-1.amazonaws.com%2F16807892-2c74-4501-9338-45d8096e918e?source=ft-email-manual&amp;width=1024&amp;fit=scale-down\" width=\"600\"></p><p>Finally, there are arguments from economics. Unlike other recoveries, this one has been accompanied by continuous household deleveraging. Easing lending standards, and signs that wages are beginning to grow, suggest that there is plenty of room now for credit to expand.</p><p><img src=\"https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Femail-platform-ftcom-manual.s3.amazonaws.com%2F37b45687-40af-48b6-a49b-d43a61faa013?source=ft-email-manual&amp;width=1024&amp;fit=scale-down\" width=\"600\"></p><p>Many will suspect data-mining, so it is worth taking a look. There is also a broader argument to be made about the dangers of being out of the market. Long-term studies show that market-timing is very difficult. Lest anyone think that this is typical over-the-top bullishness from a notoriously bullish house, note that the outlook still characterises risks as high, particularly from China, and expects equity returns to be well below historic averages, thanks to multiple compression. <a href=\"http://www.goldmansachs.com/what-we-do/investment-management/private-wealth-management/intellectual-capital/isg-outlook-2017.pdf\">The entire Goldman report is available online for free</a>, and it is worth taking a read.</p><a href=\"http://video.ft.com/5280178301001\" data-embedded=\"true\" data-asset-type=\"video\"></a><p>Two other points: first, we have to wait for the new president, and see how his first 100 days play out. Bond yields are back where they were early in December. US stocks have gone nowhere for a month. There is no great retracement of the Trump rally, and I think <a href=\"http://www.marketwatch.com/story/beware-of-the-trump-dump-in-stocks-as-rally-peters-out-2017-01-11\">it is too soon to say that a “Trump Dump” has begun</a>. But for another move forward, <a href=\"https://www.bloomberg.com/view/articles/2017-01-12/trump-rally-needs-more-policy-fuel\">as Mohamed El-Erian says on Bloomberg View</a>, it will need some more policy fuel. </p><p>Second, Goldman also subscribes to worries about Chinese credit. Yesterday I offered a chart putting Chinese credit in the context of previous great credit crises. Goldman offers a chart that is strikingly similar. </p><p><img src=\"https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Femail-platform-ftcom-manual.s3.amazonaws.com%2Fe9115ac1-96c3-4bcc-a013-9c300922e184?source=ft-email-manual&amp;width=1024&amp;fit=scale-down\" width=\"600\"></p><p>Chinese credit is still nagging away at influential investors’ minds. It would not take much bad news on that front to start a new “risk-off” wave. </p><p><strong>Thinking fast and slow</strong></p><p>Last night I was lucky enough to have dinner with Daniel Kahneman. Almost certainly the only person ever awarded the Nobel Prize for economics even though he does not describe himself as an economist, <a href=\"https://www.ft.com/content/a33e54d0-eefd-11dd-bbb5-0000779fd2ac?emailid=56cef8b84218200300714481&amp;segmentId=e2b21419-1ad0-96bc-fb17-88413ea973e2\">Kahneman is the great Israeli psychologist</a> nowadays best known for his book <em><a href=\"https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555\">Thinking Fast and Slow</a></em>.</p><ft-related url=\"http://nbe.ft.com/?authersnote=y\"><title>Authers’ Note</title><headline>Sign up to your daily investment email briefing</headline><media><img src=\"http://com.ft.imagepublish.prod.s3.amazonaws.com/2b4dfb90-baee-11e6-8b45-b8b81dd5d080\" width=\"2048\" height=\"1152\"></media><intro><p>Keep up to date with the latest in markets and investment trends. Written by John Authers, it provides a daily briefing after the Closing Bell on Wall St</p></intro></ft-related><p>His greatest work was carried out with Amos Tversky, now no longer with us. Between them, working at a time when Israel’s conflicts were at their peak, the two psychologists discovered and documented a raft of <a href=\"https://www.ft.com/content/d2b32b2c-e034-11e3-9534-00144feabdc0?emailid=56cef8b84218200300714481&amp;segmentId=e2b21419-1ad0-96bc-fb17-88413ea973e2\">heuristics or mental short-cuts</a> that lead to <a href=\"https://www.amazon.com/Predictably-Irrational-Revised-Expanded-Decisions/dp/0061353248\">predictably irrational</a> behaviour. Although neither had much interest in finance or investing, they became the fathers of behavioural finance. <em>The Undoing Project</em>, a new book by Michael Lewis, tells the story of their great collaboration.</p><p>Kahneman is now in his 80s, but does not look it. He appeared in New York at a networking dinner, held in the unlikely confines of the LGBT Center in Greenwich Village, that had been organised by Zach Liberman and Saumitra Thakur of The College-100 network. He is as fascinating as he is generous with his time. Here are some of the thoughts he shared that struck me as most interesting:</p><ul><li>The most exciting field in psychology now is no longer decision-making theory but artificial intelligence — which is an area where investors are now taking an intense interest, and where the last 18 months have seen vital breakthroughs. Computers can now mimic an individual's voice so that it is indistinguishable from the original. It is not long before they can do this for video. </li><li>He enjoys changing his mind, and has no “sunk costs” when he works. Changing his mind means that he has learnt something. </li><li>Sunk costs — or in a psychological context, a commitment to a belief or a theory that we have already nurtured — are a great problem, and cause many to get stuck. This applies either to projects or to investments. </li><li>The use of the words “rational” and “irrational” in common usage is a recent development. Their definitions are not clear-cut, and when someone accuses someone else of being “irrational” — as often happens when coastal elitists criticise Trump voters — what they really mean is that they have a polite way to call them \"evil\".</li><li>There is already great acceptance of behavioural theories in microeconomics. Even though he does not in any way consider himself an economist, his ideas have been widely taken on board. What is not clear is whether behavioural science can be applied to macroeconomics. It hasn't happened yet. </li><li>Collaboration is a matter of luck. His collaboration with Tversky worked because they found each other funny.</li><li>“The world is not kind to collaborators” — a quote from Tversky himself. There is an urge to give credit to an individual and to assume that one person did something that makes collaborations very difficult. This was true even though this work with Tversky was a true collaboration. They were two brilliant men, but the work they did together was “clearly superior to what either of us could have done on our own”.</li><li><p>As for Michael Lewis’ book, he found it uncomfortable reading but hopes that it will inspire more collaborations. His response to the election of Donald Trump was to take a Valium and go to bed early.</p></li></ul><p>Separately, <a href=\"https://www.ft.com/content/ec89a34a-bc6f-11e6-8b45-b8b81dd5d080?emailid=56cef8b84218200300714481&amp;segmentId=e2b21419-1ad0-96bc-fb17-88413ea973e2\">Lewis’ theory</a> that the Trump victory owes much to the flaws in reasoning and perception that Kahneman and Tversky discovered, which he shared with Gary Silverman, is also worth reading.</p><p><strong>Tired of waiting for Dow 20,000</strong></p><p>The Dow fell today. The process of waiting for the 20,000 landmark has grown tedious. So we might as well take the cue to listen to <em>The Kinks</em>. Here are Muswell Hill’s finest:</p><p><a data-asset-type=\"video\" data-embedded=\"true\" href=\"https://www.youtube.com/watch?v=Hz64hWng2vM\"></a></p>",
+    "bodyHTML": "<figure class=\"n-content-image\"><img src=\"http://com.ft.imagepublish.prod.s3.amazonaws.com/bce5205a-bd92-11e6-8b45-b8b81dd5d080\" width=\"2048\" height=\"1152\"></figure><p>There are some things on which we can all agree. <a href=\"https://www.ft.com/content/e4230062-b1ba-11e6-9c37-5787335499a0?emailid=56cef8b84218200300714481&amp;segmentId=e2b21419-1ad0-96bc-fb17-88413ea973e2\">US stocks are very expensive</a>, and the US post-crisis expansion has been going on for a long time (albeit very slowly). But that still, according to Goldman Sachs' private wealth management group, means that US stocks are a buy. The glass is half-full, not half-empty.</p><p>I am nervous about this logic, but must concede that the US has been the most expensive stock market for years and has continued to rise. I interviewed Sharmin Mossavar-Rahmani, chief investment officer of Goldman Sachs’ private wealth management group, today on Facebook live. You can visit the video on <a href=\"https://www.facebook.com/financialtimes/videos/10154864462430750/\">Facebook</a>:</p><figure class=\"n-content-image\"><img alt=\"\" src=\"https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Femail-platform-ftcom-manual.s3.amazonaws.com%2Fda85228c-2f5b-4d75-a26c-6aaaef5c1c45?source=ft-email-manual&amp;width=1024&amp;fit=scale-down\" width=\"600\"></figure><p>Here is her argument, using the graphs from the report. First, there is no sign of euphoria, even after the month of Trump-led excitement that followed the election. Instead the talk is still of decline, and Sharmin even drew a parallel between a famous BusinessWeek cover from 1979 and a more recent illustration in the Financial Times:</p><figure class=\"n-content-image\"><img src=\"https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Femail-platform-ftcom-manual.s3.amazonaws.com%2F21e60dfe-559a-47aa-bb37-21345de59739?source=ft-email-manual&amp;width=1024&amp;fit=scale-down\" width=\"600\"></figure><p>That we are publishing such images could be viewed as a classic contrarian buying signal. Next comes the acknowledgment that US equity valuations are now in the tenth decile (meaning that they are more expensive than they have been 90 per cent of the time). This normally means that it is a terrible time to buy:</p><figure class=\"n-content-image\"><img src=\"https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Femail-platform-ftcom-manual.s3.amazonaws.com%2F41d3e874-01b2-4dfa-93d3-72097dde3bd5?source=ft-email-manual&amp;width=1024&amp;fit=scale-down\" width=\"600\"></figure><p>The problem is that expensive assets can always grow more expensive. And since the US market entered the ninth decile, by Goldman’s metrics, it has gained another 38 per cent. Further, it is reasonable to pay a higher multiple when yields and inflation are low:</p><figure class=\"n-content-image\"><img src=\"https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Femail-platform-ftcom-manual.s3.amazonaws.com%2Ffdab5713-e3b9-459f-87b1-3029ef271cf4?source=ft-email-manual&amp;width=1024&amp;fit=scale-down\" width=\"600\"></figure><p>And the low bond yields of the present, combined with the low disparity between equity and bond returns of recent years, create a reasonable expectation that equities can move forward:</p><figure class=\"n-content-image\"><img src=\"https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Femail-platform-ftcom-manual.s3.amazonaws.com%2F855a5238-aee3-4117-a1a5-a3af5e1858f8?source=ft-email-manual&amp;width=1024&amp;fit=scale-down\" width=\"600\"></figure><p>Not only this, but while rates are low, stocks do well until bonds reach an inflection point, apparently. (As there have not been all that many inflection points in the bond market this is a hard one to gauge, but here is Goldman's version of the effect). Rises in bond yields only cease to be good for stocks once they have passed 3.9 per cent. We are still only at 2.4 per cent:</p><figure class=\"n-content-image\"><img src=\"https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Femail-platform-ftcom-manual.s3.amazonaws.com%2Fcaf6f451-40b0-4082-ba14-8940b2dd4e76?source=ft-email-manual&amp;width=1024&amp;fit=scale-down\" width=\"600\"></figure><p>Then there is an argument from the Trump effect. Any cut in the effective tax rate will be good for shareholders of US companies. Naturally, much devil is in the detail. Different companies pay different effective rates at present, and an attempt to level the terms of trade by imposing a destination tax would create some major losers among the bigger importers. But the logic that lower tax, all else being equal, is good for stocks, and that lower tax is very likely, is unassailable.</p><figure class=\"n-content-image\"><img src=\"https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Femail-platform-ftcom-manual.s3-eu-west-1.amazonaws.com%2F16807892-2c74-4501-9338-45d8096e918e?source=ft-email-manual&amp;width=1024&amp;fit=scale-down\" width=\"600\"></figure><p>Finally, there are arguments from economics. Unlike other recoveries, this one has been accompanied by continuous household deleveraging. Easing lending standards, and signs that wages are beginning to grow, suggest that there is plenty of room now for credit to expand.</p><figure class=\"n-content-image\"><img src=\"https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Femail-platform-ftcom-manual.s3.amazonaws.com%2F37b45687-40af-48b6-a49b-d43a61faa013?source=ft-email-manual&amp;width=1024&amp;fit=scale-down\" width=\"600\"></figure><p>Many will suspect data-mining, so it is worth taking a look. There is also a broader argument to be made about the dangers of being out of the market. Long-term studies show that market-timing is very difficult. Lest anyone think that this is typical over-the-top bullishness from a notoriously bullish house, note that the outlook still characterises risks as high, particularly from China, and expects equity returns to be well below historic averages, thanks to multiple compression. <a href=\"http://www.goldmansachs.com/what-we-do/investment-management/private-wealth-management/intellectual-capital/isg-outlook-2017.pdf\">The entire Goldman report is available online for free</a>, and it is worth taking a read.</p><div class=\"n-content-video n-content-video--brightcove\"><a href=\"http://video.ft.com/5280178301001\" data-embedded=\"true\" data-asset-type=\"video\"></a></div><p>Two other points: first, we have to wait for the new president, and see how his first 100 days play out. Bond yields are back where they were early in December. US stocks have gone nowhere for a month. There is no great retracement of the Trump rally, and I think <a href=\"http://www.marketwatch.com/story/beware-of-the-trump-dump-in-stocks-as-rally-peters-out-2017-01-11\">it is too soon to say that a “Trump Dump” has begun</a>. But for another move forward, <a href=\"https://www.bloomberg.com/view/articles/2017-01-12/trump-rally-needs-more-policy-fuel\">as Mohamed El-Erian says on Bloomberg View</a>, it will need some more policy fuel. </p><p>Second, Goldman also subscribes to worries about Chinese credit. Yesterday I offered a chart putting Chinese credit in the context of previous great credit crises. Goldman offers a chart that is strikingly similar. </p><figure class=\"n-content-image\"><img src=\"https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Femail-platform-ftcom-manual.s3.amazonaws.com%2Fe9115ac1-96c3-4bcc-a013-9c300922e184?source=ft-email-manual&amp;width=1024&amp;fit=scale-down\" width=\"600\"></figure><p>Chinese credit is still nagging away at influential investors’ minds. It would not take much bad news on that front to start a new “risk-off” wave. </p><p><strong>Thinking fast and slow</strong></p><p>Last night I was lucky enough to have dinner with Daniel Kahneman. Almost certainly the only person ever awarded the Nobel Prize for economics even though he does not describe himself as an economist, <a href=\"https://www.ft.com/content/a33e54d0-eefd-11dd-bbb5-0000779fd2ac?emailid=56cef8b84218200300714481&amp;segmentId=e2b21419-1ad0-96bc-fb17-88413ea973e2\">Kahneman is the great Israeli psychologist</a> nowadays best known for his book <em><a href=\"https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555\">Thinking Fast and Slow</a></em>.</p><aside class=\"n-content-related-box\" role=\"complementary\"><h3 class=\"n-content-related-box__title\"><span class=\"n-content-related-box__title-text\">Authers’ Note</span></h3><div class=\"n-content-related-box__headline\"><a class=\"n-content-related-box__headline-link\" href=\"http://nbe.ft.com/?authersnote=y\">Sign up to your daily investment email briefing</a></div><a class=\"n-content-related-box__image-link\" href=\"http://nbe.ft.com/?authersnote=y\"><img src=\"http://com.ft.imagepublish.prod.s3.amazonaws.com/2b4dfb90-baee-11e6-8b45-b8b81dd5d080\" width=\"2048\" height=\"1152\"></a><div class=\"n-content-related-box__content\"><p>Keep up to date with the latest in markets and investment trends. Written by John Authers, it provides a daily briefing after the Closing Bell on Wall St</p></div></aside><p>His greatest work was carried out with Amos Tversky, now no longer with us. Between them, working at a time when Israel’s conflicts were at their peak, the two psychologists discovered and documented a raft of <a href=\"https://www.ft.com/content/d2b32b2c-e034-11e3-9534-00144feabdc0?emailid=56cef8b84218200300714481&amp;segmentId=e2b21419-1ad0-96bc-fb17-88413ea973e2\">heuristics or mental short-cuts</a> that lead to <a href=\"https://www.amazon.com/Predictably-Irrational-Revised-Expanded-Decisions/dp/0061353248\">predictably irrational</a> behaviour. Although neither had much interest in finance or investing, they became the fathers of behavioural finance. <em>The Undoing Project</em>, a new book by Michael Lewis, tells the story of their great collaboration.</p><p>Kahneman is now in his 80s, but does not look it. He appeared in New York at a networking dinner, held in the unlikely confines of the LGBT Center in Greenwich Village, that had been organised by Zach Liberman and Saumitra Thakur of The College-100 network. He is as fascinating as he is generous with his time. Here are some of the thoughts he shared that struck me as most interesting:</p><ul><li>The most exciting field in psychology now is no longer decision-making theory but artificial intelligence — which is an area where investors are now taking an intense interest, and where the last 18 months have seen vital breakthroughs. Computers can now mimic an individual's voice so that it is indistinguishable from the original. It is not long before they can do this for video. </li><li>He enjoys changing his mind, and has no “sunk costs” when he works. Changing his mind means that he has learnt something. </li><li>Sunk costs — or in a psychological context, a commitment to a belief or a theory that we have already nurtured — are a great problem, and cause many to get stuck. This applies either to projects or to investments. </li><li>The use of the words “rational” and “irrational” in common usage is a recent development. Their definitions are not clear-cut, and when someone accuses someone else of being “irrational” — as often happens when coastal elitists criticise Trump voters — what they really mean is that they have a polite way to call them \"evil\".</li><li>There is already great acceptance of behavioural theories in microeconomics. Even though he does not in any way consider himself an economist, his ideas have been widely taken on board. What is not clear is whether behavioural science can be applied to macroeconomics. It hasn't happened yet. </li><li>Collaboration is a matter of luck. His collaboration with Tversky worked because they found each other funny.</li><li>“The world is not kind to collaborators” — a quote from Tversky himself. There is an urge to give credit to an individual and to assume that one person did something that makes collaborations very difficult. This was true even though this work with Tversky was a true collaboration. They were two brilliant men, but the work they did together was “clearly superior to what either of us could have done on our own”.</li><li><p>As for Michael Lewis’ book, he found it uncomfortable reading but hopes that it will inspire more collaborations. His response to the election of Donald Trump was to take a Valium and go to bed early.</p></li></ul><p>Separately, <a href=\"https://www.ft.com/content/ec89a34a-bc6f-11e6-8b45-b8b81dd5d080?emailid=56cef8b84218200300714481&amp;segmentId=e2b21419-1ad0-96bc-fb17-88413ea973e2\">Lewis’ theory</a> that the Trump victory owes much to the flaws in reasoning and perception that Kahneman and Tversky discovered, which he shared with Gary Silverman, is also worth reading.</p><p><strong>Tired of waiting for Dow 20,000</strong></p><p>The Dow fell today. The process of waiting for the 20,000 landmark has grown tedious. So we might as well take the cue to listen to <em>The Kinks</em>. Here are Muswell Hill’s finest:</p><div class=\"n-content-video n-content-video--youtube\"><iframe frameborder=\"0\" src=\"https://www.youtube.com/embed/Hz64hWng2vM?rel=0\"></iframe></div>",
+    "contentStats": {
+      "relatedBoxes": 1,
+      "pullQuotes": 0,
+      "images": 10,
+      "videos": 2
+    }
+  }
+}

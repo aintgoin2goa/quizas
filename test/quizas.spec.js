@@ -7,7 +7,8 @@ describe('Quizas', function(){
 	var quizas;
 
 	var fixtures = {
-		ftStream: require('./fixtures/ft-stream.json')
+		ftStream: require('./fixtures/ft-stream.json'),
+		esArticle: require('./fixtures/es-article.json')
 	};
 
 	before(function(){
@@ -76,7 +77,7 @@ describe('Quizas', function(){
 		expect(result).to.deep.equal(expected);
 	});
 
-	it.only('Should be able to pluck values from an array whilst already plucking', function() {
+	it('Should be able to pluck values from an array whilst already plucking', function() {
 		var result = quizas(fixtures.ftStream, 'items').pluck(
 			'title',
 			{source:'metadata', target:'meta', pluck:['taxonomy', 'prefLabel']}
@@ -90,5 +91,12 @@ describe('Quizas', function(){
 				expect(m).not.to.have.property('attributes');
 			})
 		});
+	});
+
+	it('Should be able to write deeply', function(){
+		var target = {};
+		var expected = {brand: {name: fixtures.esArticle._source.annotations[0].prefLabel}};
+		quizas(fixtures.esArticle, '_source.annotations.0.prefLabel').copy(target, 'brand.name');
+		expect(target).to.deep.equal(expected);
 	})
 });

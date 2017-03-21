@@ -36,8 +36,8 @@ function deepWrite(obj, path, value){
 	}
 
 	for(var i=0, l=path.length; i<l; i++){
-		if(i === l-1 && obj[path[i]]){
-			obj[path] = value;
+		if(i === l-1){
+			obj[path[i]] = value;
 		}else if(!obj[path[i]]){
 			obj[path[i]] = {};
 			obj = obj[path[i]];

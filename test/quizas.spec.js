@@ -101,12 +101,12 @@ describe('Quizas', function(){
 	});
 
 	it('Should be able to extract values from an object', function(){
-		const result = quizas(fixtures.esArticle).extract(
+		var result = quizas(fixtures.esArticle).extract(
 			['_id', 'id'],
 			['_source.title', 'title'],
 			['_source.comments.enabled', 'comments']
 		);
-		const expected = {
+		var expected = {
 			id: fixtures.esArticle._id,
 			title: fixtures.esArticle._source.title,
 			comments: fixtures.esArticle._source.comments.enabled

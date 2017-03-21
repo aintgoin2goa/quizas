@@ -74,5 +74,21 @@ describe('Quizas', function(){
 
 		var result = quizas(fixtures.ftStream, 'items.0.metadata.2').value;
 		expect(result).to.deep.equal(expected);
+	});
+
+	it.only('Should be able to pluck values from an array whilst already plucking', function() {
+		var result = quizas(fixtures.ftStream, 'items').pluck(
+			'title',
+			{source:'metadata', target:'meta', pluck:['taxonomy', 'prefLabel']}
+		);
+		expect(result).to.be.an('array');
+		result.forEach(function(item){
+			expect(item.meta).to.be.an('array');
+			item.meta.forEach(function(m){
+				expect(m).to.have.property('taxonomy');
+				expect(m).to.have.property('prefLabel');
+				expect(m).not.to.have.property('attributes');
+			})
+		});
 	})
 });

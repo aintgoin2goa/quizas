@@ -18,7 +18,7 @@ function deepRead(obj, path){
 
 	for(var i=0, l=path.length; i<l; i++){
 		var prop = path[i];
-		if(obj[prop]){
+		if(obj && obj[prop]){
 			obj = obj[prop];
 		}else{
 			found = false;
@@ -117,9 +117,10 @@ function quizas(obj, path) {
 						prop = {source:prop[0], target:prop[1]};
 					}
 
-					var value = deepRead(result.value, prop.source);
-					if(value.found){
-						deepWrite(extracted, prop.target, value.value);
+					var q = quizas(result.value, prop.source);
+					var value = prop.pluck ? q.pluck.apply(q, prop.pluck) : q.value;
+					if(value){
+						deepWrite(extracted, prop.target, value);
 					}
 				});
 

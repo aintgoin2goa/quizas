@@ -6,6 +6,10 @@ function isObject(obj){
 }
 
 function deepRead(obj, path){
+	if(typeof obj !== 'object' || obj === null){
+		return {found:false,value:null};
+	}
+
 	var found = true;
 
 	if(path.indexOf('.') > -1){

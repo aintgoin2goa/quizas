@@ -113,5 +113,13 @@ describe('Quizas', function(){
 		};
 
 		expect(result).to.deep.equal(expected);
+	});
+
+	describe('Bugs', function() {
+
+		it('Should be able to cope with not being passed and object', function(){
+			var result = quizas(null, 'prop');
+			expect(result.hasValue).to.be.false;
+		})
 	})
 });

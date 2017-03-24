@@ -35,7 +35,7 @@ describe('Quizas', function(){
 	it('Should be able to copy values to a different object', function(){
 		var expected = {title:'Ride-hailing app Grab to hire 800 developers'};
 		var target = {};
-		quizas(fixtures.ftStream, 'items.0.title').copy(target, 'title');
+		target = quizas(fixtures.ftStream, 'items.0.title').copy(target, 'title');
 		expect(target).to.deep.equal(expected);
 	});
 
@@ -94,10 +94,9 @@ describe('Quizas', function(){
 	});
 
 	it('Should be able to write deeply', function(){
-		var target = {};
 		var expected = {brand: {name: fixtures.esArticle._source.annotations[0].prefLabel}};
-		quizas(fixtures.esArticle, '_source.annotations.0.prefLabel').copy(target, 'brand.name');
-		expect(target).to.deep.equal(expected);
+		var result = quizas(fixtures.esArticle, '_source.annotations.0.prefLabel').copy({}, 'brand.name');
+		expect(result).to.deep.equal(expected);
 	});
 
 	it('Should be able to extract values from an object', function(){

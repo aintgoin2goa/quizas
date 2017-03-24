@@ -5,6 +5,10 @@ function isObject(obj){
 	return obj === Object(obj);
 }
 
+function clone(obj){
+	return JSON.parse(JSON.stringify(obj));
+}
+
 function deepRead(obj, path){
 	if(typeof obj !== 'object' || obj === null){
 		return {found:false,value:null};
@@ -34,13 +38,16 @@ function deepRead(obj, path){
 }
 
 function deepWrite(obj, path, value){
+	var root = clone(obj);
+	obj = root;
+
 	if(path.indexOf('.') > -1){
 		path = path.split('.');
 	}
 
 	if(typeof path === 'string'){
 		obj[path] = value;
-		return;
+		return root;
 	}
 
 	for(var i=0, l=path.length; i<l; i++){
@@ -53,6 +60,8 @@ function deepWrite(obj, path, value){
 			break;
 		}
 	}
+
+	return root;
 }
 
 function quizas(obj, path) {
@@ -74,7 +83,7 @@ function quizas(obj, path) {
 		'copy': {
 			value: function(target, prop){
 				if(result.found){
-					deepWrite(target, prop, result.value);
+					return deepWrite(target, prop, result.value);
 				}
 			}
 		},
@@ -97,7 +106,7 @@ function quizas(obj, path) {
 						var q = quizas(item, prop.source);
 						var value = prop.pluck ? q.pluck.apply(q, prop.pluck) : q.value;
 						if(value){
-							deepWrite(plucked, prop.target, value);
+							plucked = deepWrite(plucked, prop.target, value);
 						}
 
 					});
@@ -124,7 +133,7 @@ function quizas(obj, path) {
 					var q = quizas(result.value, prop.source);
 					var value = prop.pluck ? q.pluck.apply(q, prop.pluck) : q.value;
 					if(value){
-						deepWrite(extracted, prop.target, value);
+						extracted = deepWrite(extracted, prop.target, value);
 					}
 				});
 

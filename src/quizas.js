@@ -9,6 +9,10 @@ function clone(obj){
 	return JSON.parse(JSON.stringify(obj));
 }
 
+function isSet(obj, prop){
+	return prop in obj && obj[prop] !==  null && typeof obj[prop] !== 'undefined';
+}
+
 function deepRead(obj, path){
 	if(typeof obj !== 'object' || obj === null){
 		return {found:false,value:null};
@@ -26,7 +30,7 @@ function deepRead(obj, path){
 
 	for(var i=0, l=path.length; i<l; i++){
 		var prop = path[i];
-		if(obj && obj[prop]){
+		if(obj && isSet(obj, prop)){
 			obj = obj[prop];
 		}else{
 			found = false;
@@ -53,7 +57,7 @@ function deepWrite(obj, path, value){
 	for(var i=0, l=path.length; i<l; i++){
 		if(i === l-1){
 			obj[path[i]] = value;
-		}else if(!obj[path[i]]){
+		}else if(!isSet(obj, path[i])){
 			obj[path[i]] = {};
 			obj = obj[path[i]];
 		}else{

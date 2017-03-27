@@ -1,0 +1,2926 @@
+{
+  "took": 452,
+  "timed_out": false,
+  "_shards": {
+    "total": 6,
+    "successful": 5,
+    "failed": 1,
+    "failures": [
+      {
+        "shard": 0,
+        "index": ".kibana",
+        "node": "AWIAwFKVTZ-jAr9DZiI8og",
+        "reason": {
+          "type": "query_shard_exception",
+          "reason": "No mapping found for [name.notAnalyzed] in order to sort on",
+          "index_uuid": "6RnngTq0SpW-zZAESPcN_A",
+          "index": ".kibana"
+        }
+      }
+    ]
+  },
+  "hits": {
+    "total": 31088,
+    "max_score": null,
+    "hits": [
+      {
+        "_index": "v1",
+        "_type": "item",
+        "_id": "valuesearch-3-0040543",
+        "_score": null,
+        "_source": {
+          "address": "札幌市中央区北二条西20-1-12 佐々木ビル",
+          "country": "Japan",
+          "name": " HS Co., Ltd.",
+          "idNikkeiCode": "0040543",
+          "provenance": [
+            "valuesearch-3",
+            "https://needs.nikkei.co.jp:18991/sa/v1/json/corporate/overview/domestic?nikkei_code=0040543"
+          ],
+          "isListed": false,
+          "url": "http://www.hs-prj.jp",
+          "incorporationDate": "1985-06-01T00:00:00.000Z",
+          "_lastUpdatedDateTime": "2017-03-18T12:51:29.287Z"
+        },
+        "sort": [
+          " HS Co., Ltd."
+        ]
+      },
+      {
+        "_index": "v1",
+        "_type": "item",
+        "_id": "valuesearch-3-0051974",
+        "_score": null,
+        "_source": {
+          "address": "東京都大田区平和島6-1-1 東京流通センターセンタービル",
+          "country": "Japan",
+          "name": " Kibun Fresh System Inc.",
+          "idNikkeiCode": "0051974",
+          "provenance": [
+            "valuesearch-3",
+            "https://needs.nikkei.co.jp:18991/sa/v1/json/corporate/overview/domestic?nikkei_code=0051974"
+          ],
+          "isListed": false,
+          "url": "http://www.kibun-fs.com/",
+          "incorporationDate": "1984-02-03T00:00:00.000Z",
+          "_lastUpdatedDateTime": "2017-03-15T20:51:24.793Z"
+        },
+        "sort": [
+          " Kibun Fresh System Inc."
+        ]
+      },
+      {
+        "_index": "v1",
+        "_type": "item",
+        "_id": "valuesearch-3-0021303",
+        "_score": null,
+        "_source": {
+          "address": "兵庫県豊岡市九日市下町上荒原98",
+          "country": "Japan",
+          "name": " Toyoda",
+          "idNikkeiCode": "0021303",
+          "provenance": [
+            "valuesearch-3",
+            "https://needs.nikkei.co.jp:18991/sa/v1/json/corporate/overview/domestic?nikkei_code=0021303"
+          ],
+          "isListed": false,
+          "url": null,
+          "incorporationDate": "1964-05-14T00:00:00.000Z",
+          "_lastUpdatedDateTime": "2017-03-12T11:51:21.374Z"
+        },
+        "sort": [
+          " Toyoda"
+        ]
+      },
+      {
+        "_index": "v1",
+        "_type": "item",
+        "_id": "valuesearch-3-0011703",
+        "_score": null,
+        "_source": {
+          "address": "大阪市西区新町1-27-8",
+          "country": "Japan",
+          "name": "1&D Holdings Co., Ltd.",
+          "idNikkeiCode": "0011703",
+          "provenance": [
+            "valuesearch-3",
+            "https://needs.nikkei.co.jp:18991/sa/v1/json/corporate/overview/domestic?nikkei_code=0011703"
+          ],
+          "isListed": false,
+          "url": "http://www.1dining.co.jp/",
+          "incorporationDate": "1972-03-01T00:00:00.000Z",
+          "_lastUpdatedDateTime": "2017-03-11T15:51:21.105Z"
+        },
+        "sort": [
+          "1&D Holdings Co., Ltd."
+        ]
+      },
+      {
+        "_index": "v1",
+        "_type": "item",
+        "_id": "valuesearch-2-0031654",
+        "_score": null,
+        "_source": {
+          "address": "東京都渋谷区桜丘町20-1 渋谷インフォスタワー",
+          "country": "Japan",
+          "name": "1st Holdings, Inc.",
+          "idNikkeiCode": "0031654",
+          "provenance": [
+            "valuesearch-2",
+            "https://needs.nikkei.co.jp:18991/sa/v1/json/corporate/overview/domestic?nikkei_code=0031654"
+          ],
+          "isListed": true,
+          "url": "http://www.1st-hd.com/",
+          "incorporationDate": "1972-04-11T00:00:00.000Z",
+          "_lastUpdatedDateTime": "2017-03-11T15:51:15.353Z"
+        },
+        "sort": [
+          "1st Holdings, Inc."
+        ]
+      },
+      {
+        "_index": "v1",
+        "_type": "item",
+        "_id": "valuesearch-3-0007503",
+        "_score": null,
+        "_source": {
+          "address": "東京都中央区銀座2-11-16",
+          "country": "Japan",
+          "name": "21 Incorporation",
+          "idNikkeiCode": "0007503",
+          "provenance": [
+            "valuesearch-3",
+            "https://needs.nikkei.co.jp:18991/sa/v1/json/corporate/overview/domestic?nikkei_code=0007503"
+          ],
+          "isListed": false,
+          "url": null,
+          "incorporationDate": "1964-05-01T00:00:00.000Z",
+          "_lastUpdatedDateTime": "2017-03-12T16:51:14.075Z"
+        },
+        "sort": [
+          "21 Incorporation"
+        ]
+      },
+      {
+        "_index": "v1",
+        "_type": "item",
+        "_id": "valuesearch-2-0030945",
+        "_score": null,
+        "_source": {
+          "address": "東京都千代田区二番町5-5",
+          "country": "Japan",
+          "name": "21LADY Co., Ltd.",
+          "idNikkeiCode": "0030945",
+          "provenance": [
+            "valuesearch-2",
+            "https://needs.nikkei.co.jp:18991/sa/v1/json/corporate/overview/domestic?nikkei_code=0030945"
+          ],
+          "isListed": true,
+          "securityCode": "3346:TYO",
+          "url": "http://www.21lady.com/",
+          "incorporationDate": "2000-03-07T00:00:00.000Z",
+          "_lastUpdatedDateTime": "2017-03-11T10:51:11.713Z"
+        },
+        "sort": [
+          "21LADY Co., Ltd."
+        ]
+      },
+      {
+        "_index": "v1",
+        "_type": "item",
+        "_id": "valuesearch-3-0051833",
+        "_score": null,
+        "_source": {
+          "address": "東京都中央区築地4-1-1 東劇ビル",
+          "country": "Japan",
+          "name": "24-7, Inc.",
+          "idNikkeiCode": "0051833",
+          "provenance": [
+            "valuesearch-3",
+            "https://needs.nikkei.co.jp:18991/sa/v1/json/corporate/overview/domestic?nikkei_code=0051833"
+          ],
+          "isListed": false,
+          "url": "http://www.24-7.co.jp/",
+          "incorporationDate": "2005-07-01T00:00:00.000Z",
+          "_lastUpdatedDateTime": "2017-03-13T17:51:27.646Z"
+        },
+        "sort": [
+          "24-7, Inc."
+        ]
+      },
+      {
+        "_index": "v1",
+        "_type": "item",
+        "_id": "valuesearch-3-0051857",
+        "_score": null,
+        "_source": {
+          "address": "東京都渋谷区恵比寿西1-10-8 杉山ビル",
+          "country": "Japan",
+          "name": "28 Inc.",
+          "idNikkeiCode": "0051857",
+          "provenance": [
+            "valuesearch-3",
+            "https://needs.nikkei.co.jp:18991/sa/v1/json/corporate/overview/domestic?nikkei_code=0051857"
+          ],
+          "isListed": false,
+          "url": "http://www.28inc.co.jp",
+          "incorporationDate": "2008-11-06T00:00:00.000Z",
+          "_lastUpdatedDateTime": "2017-03-13T12:51:23.001Z"
+        },
+        "sort": [
+          "28 Inc."
+        ]
+      },
+      {
+        "_index": "v1",
+        "_type": "item",
+        "_id": "valuesearch-2-0030251",
+        "_score": null,
+        "_source": {
+          "address": "愛知県春日井市宮町1-1-1",
+          "country": "Japan",
+          "name": "2nd Street Co., Ltd.",
+          "idNikkeiCode": "0030251",
+          "provenance": [
+            "valuesearch-2",
+            "https://needs.nikkei.co.jp:18991/sa/v1/json/corporate/overview/domestic?nikkei_code=0030251"
+          ],
+          "isListed": true,
+          "url": "http://www.2ndstreet.co.jp/",
+          "incorporationDate": "1990-11-14T00:00:00.000Z",
+          "_lastUpdatedDateTime": "2017-03-11T05:51:11.793Z"
+        },
+        "sort": [
+          "2nd Street Co., Ltd."
+        ]
+      },
+      {
+        "_index": "v1",
+        "_type": "item",
+        "_id": "valuesearch-2-0031700",
+        "_score": null,
+        "_source": {
+          "address": "東京都千代田区麹町3-2-4",
+          "country": "Japan",
+          "name": "3-D Matrix, Ltd.",
+          "idNikkeiCode": "0031700",
+          "provenance": [
+            "valuesearch-2",
+            "https://needs.nikkei.co.jp:18991/sa/v1/json/corporate/overview/domestic?nikkei_code=0031700",
+            "https://api.ft.com/suggest"
+          ],
+          "isListed": true,
+          "securityCode": "7777:TYO",
+          "url": "http://www.3d-matrix.co.jp",
+          "incorporationDate": "2004-05-19T00:00:00.000Z",
+          "idFtId": "http://api.ft.com/things/29b7fa66-a8d0-38ef-add9-d853619ccbf3",
+          "_lastUpdatedDateTime": "2017-03-11T15:51:21.924Z"
+        },
+        "sort": [
+          "3-D Matrix, Ltd."
+        ]
+      },
+      {
+        "_index": "v1",
+        "_type": "item",
+        "_id": "valuesearch-3-0028130",
+        "_score": null,
+        "_source": {
+          "address": "横浜市神奈川区栄町1-1 アーバンスクエア横浜",
+          "country": "Japan",
+          "name": "3D Inc.",
+          "idNikkeiCode": "0028130",
+          "provenance": [
+            "valuesearch-3",
+            "https://needs.nikkei.co.jp:18991/sa/v1/json/corporate/overview/domestic?nikkei_code=0028130"
+          ],
+          "isListed": false,
+          "url": null,
+          "incorporationDate": "1988-04-01T00:00:00.000Z",
+          "_lastUpdatedDateTime": "2017-03-19T04:51:31.740Z"
+        },
+        "sort": [
+          "3D Inc."
+        ]
+      },
+      {
+        "_index": "v1",
+        "_type": "item",
+        "_id": "valuesearch-3-0005371",
+        "_score": null,
+        "_source": {
+          "address": "東京都品川区北品川6-7-29",
+          "country": "Japan",
+          "name": "3M Japan Ltd.",
+          "idNikkeiCode": "0005371",
+          "provenance": [
+            "valuesearch-3",
+            "https://needs.nikkei.co.jp:18991/sa/v1/json/corporate/overview/domestic?nikkei_code=0005371",
+            "https://api.ft.com/suggest"
+          ],
+          "isListed": false,
+          "url": null,
+          "incorporationDate": "1976-01-23T00:00:00.000Z",
+          "idFtId": "http://api.ft.com/things/88e38042-7871-3957-91fe-e1874fc8cf41",
+          "_lastUpdatedDateTime": "2017-03-10T14:51:09.826Z"
+        },
+        "sort": [
+          "3M Japan Ltd."
+        ]
+      },
+      {
+        "_index": "v1",
+        "_type": "item",
+        "_id": "valuesearch-3-0012736",
+        "_score": null,
+        "_source": {
+          "address": "東京都品川区北品川6-7-29",
+          "country": "Japan",
+          "name": "3M Japan Ltd.",
+          "idNikkeiCode": "0012736",
+          "provenance": [
+            "valuesearch-3",
+            "https://needs.nikkei.co.jp:18991/sa/v1/json/corporate/overview/domestic?nikkei_code=0012736",
+            "https://api.ft.com/suggest",
+            "http://api.ft.com/organisations/88e38042-7871-3957-91fe-e1874fc8cf41"
+          ],
+          "isListed": false,
+          "url": null,
+          "incorporationDate": "1961-12-01T00:00:00.000Z",
+          "idFtId": "http://api.ft.com/things/88e38042-7871-3957-91fe-e1874fc8cf41",
+          "subsidiaries": [
+            {
+              "idFtId": "http://api.ft.com/things/555b27fe-3fb6-368f-92ce-7708ac3e9c6a",
+              "name": "Aearo Intermediate LLC"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/aee1c1fa-2f7b-3687-802b-65f177053331",
+              "name": "3M Panama Pacifico S de RL"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/f8ebabd9-2014-3af2-8cf3-dafc1994d8a1",
+              "name": "Semfinder AG"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/77939980-3126-396a-bc9f-2e2e20c67b04",
+              "name": "3M Sucursal Nicaragua"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/231367c7-d63f-3e04-b494-a61e1a089b21",
+              "name": "Alpha Beta Global Tapes & Adhesives Co. Ltd."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/937f9db3-e4f4-31c6-bad0-fc5bae1b599f",
+              "name": "3M Midwest Distribution Center"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/85fd76c8-a5c3-3bf4-8e3d-08a2009367e2",
+              "name": "3M Technologies (S) Pte Ltd."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/6a5af356-2961-3195-ae9a-454c7d9462ef",
+              "name": "3m Korea Health & Safety Ltd."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/2a1653a9-0f3d-3b0d-88d8-59d71c6300d6",
+              "name": "SlipNaxos Rappold France SAS"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/01462777-6e3d-3c51-800f-7f0599021782",
+              "name": "3M Medical Device & Materials Manufacturing (Shanghai)"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/b7b8ebb8-046b-3721-a341-a469d278c17a",
+              "name": "3M Japan KK"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/a66a24d1-02ac-3ba8-8d3d-bcfdd32de248",
+              "name": "3M Electronic Monitoring, Inc."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/4bad2cb1-369b-374a-a6cc-b4d9456ffc95",
+              "name": "3M Shanghai Specialty Materials Co."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/9bc100e1-c93c-32ef-ab12-98788943cfb1",
+              "name": "3M Nevada Plant USA"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/691de1ed-cb38-336d-8929-af4fe7a04927",
+              "name": "3M Global Capital SARL"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/2b9af5eb-76ed-3520-9ed5-e4406e400d2c",
+              "name": "3m Israel Ltd."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/0b02abb2-973e-349f-8279-99ba5bfbac67",
+              "name": "Federal Signal Technologies LLC"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/51269fad-0fc9-3461-81bc-63a21d8bd65c",
+              "name": "3m Services GmbH"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/face391e-b873-3247-ba9d-0d0f73bdb82e",
+              "name": "3M Investment Management Corp."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/440d7d8d-6d99-34a6-848c-9477f6a577f6",
+              "name": "3M Financial Management Co."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/5b261231-e662-3f11-8e8d-a412847ca914",
+              "name": "3M Lanka (Pvt) Ltd."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/abee7cf5-00a1-3250-8586-d7995c441d76",
+              "name": "Plasto Adhésifs SAS"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/538ae0a4-b74a-309b-bcfc-987f1a1c3c0c",
+              "name": "GPI SAS"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/014dd12c-d492-3b92-87fd-853dbcaf639a",
+              "name": "GPI Groupe Gergonne SAS /DIY & Professional DIV (3)/"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/567e462a-64df-3643-a7b9-6e02fef6059f",
+              "name": "Original Wraps, Inc."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/88cb75e4-90a3-3207-b2d9-a8b1865fad95",
+              "name": "Chemical Engineering Corp."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/6d46508f-f30c-324c-b533-df1d968f46ba",
+              "name": "Electronized Chemicals Corp."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/15c9cc9b-d10a-311f-b1c0-d260b242442b",
+              "name": "PT 3M Indonesia"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/0a10e7f0-8781-3191-b78a-539329741352",
+              "name": "Hybrivet Systems, Inc."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/28f67a28-6b5a-32d4-a996-b54b573c5d99",
+              "name": "3M Philippines, Inc."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/171bf234-4377-30ea-9c33-d654ef41ac50",
+              "name": "3M Sanaii Ve Ticaret"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/e7b64b96-a76e-3058-b603-c536a314fd38",
+              "name": "3M Peru SA"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/07438cf4-27be-3525-9835-bed7ecb7e4c3",
+              "name": "3M Costa Rica SA"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/62699241-4bbd-33e9-894b-6ca28867c0c0",
+              "name": "3M Singapore Pte Ltd."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/6fcfe69a-d39f-311c-b7fc-4b374a2395d0",
+              "name": "3M Guatemala SA"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/d0c8cabb-e906-3961-afc3-7b4097691b05",
+              "name": "3M Hungaria Kereskedelmi Kft"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/69e5eb71-5a5b-3698-8c26-3d16d0dc0923",
+              "name": "3M Zimbabwe Ltd."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/a90dfb9d-67fd-3572-adb5-06b6f1156b92",
+              "name": "3M Panama SA"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/5ce0117e-55cd-3216-a858-2e49e781e378",
+              "name": "3M Taiwan Ltd."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/57a8d2e4-e949-3cd0-94c6-9557eaf4bc06",
+              "name": "3M Kenya Ltd."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/9af890b8-791c-3e11-b51a-935619b49ccc",
+              "name": "3M Dominicana SA"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/712f0dbd-b0ba-3844-aa49-260ec0657b90",
+              "name": "3M South Africa Ltd"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/13500bb4-e82c-3e60-a545-a67f158323e4",
+              "name": "3M Mexico SA de CV"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/887c4062-ebc7-3eab-9313-9b0920ae8add",
+              "name": "3M Purification Pty Ltd."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/de5696b1-4d3e-36e3-ad39-5053fb16207c",
+              "name": "Alpha Beta Enterprise Co. Ltd. (Tape Business)"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/e094b076-e98e-3048-8956-c5407316449e",
+              "name": "3M Dyneon Group"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/8a3d764a-f889-3658-b850-9ff2a7084f6b",
+              "name": "3M Europe NV/SA"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/969e9ae6-7b54-348a-83c9-f560171e5c2b",
+              "name": "Attenti Holdings SA"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/a8589d08-6631-3147-a892-0447f5aba130",
+              "name": "3M Automotive Market Center"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/e2c80191-8ffd-3e2a-ab0b-fff2f479e3ac",
+              "name": "Dailys Ltd."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/4b978fd2-f700-37a3-a995-75fff16a5c3a",
+              "name": "J.R. Phoenix Ltd."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/0e251cf9-355c-372d-b250-5f45f0272091",
+              "name": "MTI PolyFab, Inc."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/088e624e-4c9c-326c-932f-a35143ff1ccd",
+              "name": "3M Manufacturera Venezuela SA"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/60dccbb7-9548-3080-8186-51ef70429048",
+              "name": "3M Asia Pacific Pte Ltd."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/59b8c272-49aa-3051-bb8a-90b1281575b5",
+              "name": "3M Thailand Ltd."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/7e38637f-bebc-367b-a3ad-64809c284af9",
+              "name": "3M Svenska AB"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/08e07e5b-f5bc-33da-ad4e-dc219d25c632",
+              "name": "3M Rossiya"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/6cccebb6-106e-3716-a241-ec2df9df274d",
+              "name": "3M Romania SRL"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/d32cca58-d5df-3b0d-96fd-f27ed126f620",
+              "name": "3M Poland SP zoo"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/323effdc-26ad-3ae1-b8a7-fc5d10a49acc",
+              "name": "3M Portugal Ltda"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/bf46e39c-29ee-30eb-9326-386c0cf4c12a",
+              "name": "3M Viscoplast SA"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/fbea4bd1-4583-357d-93b4-9f3dfad43bc5",
+              "name": "3M New Zealand Ltd."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/68d424ee-725f-38c4-b3c1-4e4f93914cce",
+              "name": "3M Norge AS"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/47b15c6e-f88e-36a4-b3a1-9df0678b40d3",
+              "name": "3M Nederland Holding BV"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/dadb6a83-49d8-33a0-954c-24c5846fc494",
+              "name": "3M International Group BV"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/b2dd529f-eeb8-3aef-ae0f-77d0762f0c8a",
+              "name": "3M Corporate Services BV"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/b933bdae-82bc-3ee4-a9f3-60e0c43481ad",
+              "name": "3M Malaysia Sdn. Bhd."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/aa322ba0-f34f-3045-bc9e-da7e638faef5",
+              "name": "3M Ecuador CA"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/11da7fa6-1115-3c57-96da-2fa40fcedbc5",
+              "name": "Biotrace Microsafe SRL"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/0299a2a6-8673-3962-8fda-8939c9f39d93",
+              "name": "3M España SA"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/a08c43dc-4501-334e-b249-9ef5d1e590d1",
+              "name": "Lotum SA"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/a9eeafd3-21ca-3964-9fbd-dff39775a896",
+              "name": "3M A/S"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/48d04b43-9d4f-3ee9-b364-bb80582241c0",
+              "name": "3M Espe AG"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/ecd221ea-e787-33d6-bd22-dcd7f27d3ed2",
+              "name": "Dyneon GmbH"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/e886fb7d-2240-3cdc-8e59-8e212e6f0ba6",
+              "name": "3M Unterstützungskasse GmbH"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/1642fbc4-b008-361f-95d5-9947c8fe1800",
+              "name": "Quante Netzwerke GmbH"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/809e1bbb-2740-3124-b3dc-48bfe5934f76",
+              "name": "3M Hong Kong Ltd."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/66520c55-f791-3e95-afce-a1dc1ddb2999",
+              "name": "Kansai 3M Ltd."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/5bd55c06-06f1-3fc5-b8ec-13fff568cc97",
+              "name": "Société Alsacienne de Polymeres"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/b24cfed5-94cf-3ad8-b62e-537481615fc4",
+              "name": "Access Products SA"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/882d5892-89de-3ba3-9e44-820ae727de5d",
+              "name": "Iwate 3M Ltd."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/d23d9319-2362-35ab-b2dd-d67eff91d085",
+              "name": "3M Cesko sro"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/90469c4f-2060-3147-94c0-26fb763541d4",
+              "name": "3M China Co. Ltd."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/d5581711-a277-38d9-8240-aec9eba225ac",
+              "name": "Cuno Latina Ltda"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/e5a1a497-45b0-362f-b394-2f7c8bdf7745",
+              "name": "3M Australia Pty Ltd."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/c7e4e9dc-531f-3826-94cb-ffb24c816e48",
+              "name": "3M Belgium"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/a586ec2d-853c-353c-9e41-ee6c37da4f31",
+              "name": "Haxton Ltd."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/a8ba1b9c-f144-3bd9-b22c-17b000ed7ba9",
+              "name": "3M Hellas Sole Shareholder Co. Ltd."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/88294d76-8a5c-3bf0-8f39-4c84b65cb6ab",
+              "name": "Dippystar Ltd."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/4f1cdf3c-d112-3267-9f78-146bc5768280",
+              "name": "3M Security Printing & Systems Ltd."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/ab0b3261-c5dc-3915-b679-0a89463c626c",
+              "name": "Biotrace Ltd."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/6956e9f3-1c6a-30f8-a0c7-456943d635ff",
+              "name": "3M Products Ltd."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/fae3089f-5940-358a-829e-9034db729f76",
+              "name": "Pouyet SA"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/2bf7c0cc-5d04-316b-928c-906a9c00f2cf",
+              "name": "DINAC SAS"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/2fb547d7-7f2e-32bb-9566-047e2b9bc7ec",
+              "name": "Cuno Europe Holding SNC"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/88989c90-d471-3a50-9155-4ab75a8c70a3",
+              "name": "Financière Burgienne"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/24b3f60f-3bb2-3aec-935e-f4b19664515f",
+              "name": "Fabricauto"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/d50b7bcd-0e32-3fd5-8003-5669bda77a8c",
+              "name": "Laboratoires 3M Sante"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/4a996ca7-dc86-30b8-a283-156869ae34ce",
+              "name": "3M Health Care Ltd."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/9b5d7397-2602-3bfa-ba63-b7c3ae1dfcf7",
+              "name": "Yamagata 3M Ltd."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/a0a73510-012e-33bf-9f09-c00793fbd5de",
+              "name": "3M Colombia SA"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/8034516c-aa21-3c00-98f6-ccc79c2068b9",
+              "name": "3M Chile SA"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/69d1e2ce-f2c3-3247-adf6-3f6e86492572",
+              "name": "3M (Schweiz) AG"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/5d55f1d3-3a89-331d-823f-5cad84d9f213",
+              "name": "3M Coordination Center"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/71c38df8-8d08-399d-ad22-cad077713bd7",
+              "name": "3M Österreich GmbH"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/eb3eed6f-19ef-3ab9-9f32-c5a1989cc7c2",
+              "name": "3M Argentina SACIFIA"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/5e93d29a-2809-367d-a7b0-1b8a6a15f491",
+              "name": "3M Gulf Ltd."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/d0e81565-e8a6-3cf0-96ea-d3b7cf6ed131",
+              "name": "3M Business Group SRL"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/4114294f-7514-3f36-9142-5672b71342ca",
+              "name": "A-ONE Co., Ltd."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/3cc7732c-6ba0-37e4-b478-c4cbfd88dcf0",
+              "name": "3m Unitek Gmbh"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/bb45b81e-cb39-327b-97b8-cc4edb8d85b6",
+              "name": "3M Optical System MFG Co."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/8d68adec-c98f-360d-a514-125c51439fbf",
+              "name": "3M United States"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/0abfe86d-279e-3b83-87dc-95bab415f793",
+              "name": "Incavas Industria de Cabos e Vassouras Ltda."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/c72889bf-50a2-333e-b6e5-44fa1bad1b21",
+              "name": "3M Italia Srl"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/4b8cd3b8-a3d1-37d5-a4c5-663bb7ec3598",
+              "name": "3M Espe"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/1d55d99b-2e60-3325-bb74-94db01b6187d",
+              "name": "Water Factory Systems"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/7ea092ad-4fd8-3d1c-9fc1-5844c2957a77",
+              "name": "3M Touch Systems, Inc."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/9502577f-6e50-3c65-bd72-5f781f3933f5",
+              "name": "3M Unitek Corp."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/6dd9d0a1-1460-3c38-b7c0-ffdefebc3727",
+              "name": "3M Bondo Corp."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/16fecae9-1b5c-34df-8ae7-9d5495cd7efa",
+              "name": "3M Puerto Rico, Inc."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/af40041c-85c5-3f8b-97b0-0d2380bc43f0",
+              "name": "Nida-Core Corp."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/2db3029f-902d-396c-a708-a29c1f2d4b2d",
+              "name": "Suomen 3M OY"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/0b2224d1-6630-34fd-be28-2aa8b9085d96",
+              "name": "ABRASIVOS SA"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/3fb8a38a-aed2-36c9-9017-1cb547570ee1",
+              "name": "Grafoplast SpA"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/f8272545-45cb-3812-9897-f3871d7e38fa",
+              "name": "Food Diagnostics AS"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/908a3619-ff05-3117-bcf2-2d2a8465e4de",
+              "name": "Dedication To Detail, Inc.,"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/c88bcc03-b35b-3b8b-8c28-5a6eb150eddb",
+              "name": "Oiido AB"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/09efb848-8fbc-3752-a9a2-e14dc4b02b4e",
+              "name": "3M France SAS"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/f60dd259-55de-3bf7-b0c9-14f2cf631b0b",
+              "name": "Gruppo 3M Italia"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/98ccf288-7160-32d5-b917-9ea0a8030ad9",
+              "name": "Polyfoam Products, Inc."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/c5eb9c9c-89f1-3b83-a822-79584c4452bd",
+              "name": "Kolors Kevarkian SA"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/965a4826-caee-31a5-a009-a6fe511bc079",
+              "name": "3M Spray Equipment"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/847010f1-c3ab-3b32-a119-5fdb3e507a06",
+              "name": "Ligacon AG"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/e12a3f37-59eb-3fdc-8c67-75687398e739",
+              "name": "SAPO SA"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/0169c2bd-340b-39da-bd3e-d1d91cef460f",
+              "name": "K&H Surface Technologies Pty Ltd."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/973bd540-5df7-333d-b275-82f598b553d3",
+              "name": "TOP-Service für Lingualtechnik GmbH"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/9a65454f-087f-36e8-b344-06eb318d27c8",
+              "name": "IMTEC Corp."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/b8f143de-3ca5-3c39-a5d5-19f25d04cdef",
+              "name": "Meditech, Inc."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/26d6badd-90f6-38bc-adc1-56248d3ac445",
+              "name": "3M do Brasil Ltda."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/51a5caeb-9fe0-3adf-9bce-995a039c0d26",
+              "name": "3M Korea Ltd."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/0ff4ed48-c16a-33b6-838a-f38a2476999e",
+              "name": "3M Electro & Communication India Pvt Ltd."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/65ed5fca-408e-3dff-9521-3e19d089e18c",
+              "name": "Advanced Chemistry & Technology, Inc."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/339df5a2-de01-3ef4-b993-b40a389743d8",
+              "name": "3M Innovative Properties Co."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/634777ab-3f51-3820-bc36-006ebc052960",
+              "name": "Treo Solutions LLC"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/1c04c9db-249f-3206-a56c-3ef12c50fa9b",
+              "name": "Unifam Sp zoo"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/589382ee-8020-3ef7-8383-5ad01c1d34a8",
+              "name": "Standard Abrasives, Inc."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/c0506b71-9c88-33a2-9431-f175d3e257ee",
+              "name": "Abzil Indústria e Comércio Ltda."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/d23fa319-4316-35e8-9d9c-da19c4293acc",
+              "name": "Neoplast Co. Ltd."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/57cecbb2-271d-3e1b-be93-976ccbfa928d",
+              "name": "Clozex Medical LLC"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/0afd1dbc-4b7e-33d9-9975-67c9ff79d66c",
+              "name": "Innovative Paper Technologies LLC"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/c2190cb1-2ce5-3e31-b6ca-892f4ada4d00",
+              "name": "Mapow LLC"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/d9dccff8-2483-3631-8550-805602b0d551",
+              "name": "Polymask Corp."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/f272fe68-5702-35e0-8a79-5ad1a5031bb4",
+              "name": "NorthStar Chemicals, Inc."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/76eefd83-b715-32a5-a27c-843c57727e3b",
+              "name": "Bondo Corp."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/77559ea3-ff95-349f-ba36-aa9ed2e09a53",
+              "name": "Credence Technologies, Inc."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/b982455f-5b83-3d6e-b565-2b0e337b7897",
+              "name": "Nylonge Corp."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/0ed7760a-72fb-3248-ba70-0621e15c7594",
+              "name": "Aerion Technologies, Inc."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/0cd17aee-f608-397b-b019-f8339a51a327",
+              "name": "Archon Technologies, Inc."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/64224b6a-f1fa-3ae0-bcec-ad29a1db081c",
+              "name": "Security Printing & Systems Ltd."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/c5fb20db-bc6d-316e-94b2-d6cab396829a",
+              "name": "SCC Products, Inc."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/e3302fa7-7861-3cda-9c40-904465392031",
+              "name": "JJ Converting LLC"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/06d24fb9-78de-363e-92bb-b575c40046c4",
+              "name": "Software und Beratung im Gesundheitswesen GmbH"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/b73d4316-4a66-363e-8d87-6b6dc22c2383",
+              "name": "General Industrial Diamond Co., Inc."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/fc954aac-d410-3f8a-a815-121b6866d001",
+              "name": "OMNII Oral Pharmaceuticals"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/c33aa669-1b96-3bc2-a623-ea60dacb952d",
+              "name": "Pouyet 3M Telecommunications"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/7c5c5a4e-dc6b-3971-be16-8636e5d9a145",
+              "name": "Venture Tape Corp."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/1f2a4c2e-1dec-3917-96fe-45a79f224a12",
+              "name": "3M Nederland BV"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/b252ac5e-7674-3710-811e-9a432e46968b",
+              "name": "3M Touch Systems UK Ltd."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/6e328e64-c3b5-34ad-8623-74c675aa0d20",
+              "name": "3M Health Care Ltd. (United Kingdom)"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/3c0ac0f9-2181-372d-8561-da979fe04c07",
+              "name": "3M Precision Optics, Inc."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/f2ee317b-e08c-315d-b908-dfb75479dc51",
+              "name": "3M Health Information Systems, Inc."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/54bab226-da2e-35a9-bccc-e8402221f9b2",
+              "name": "SoftMed Systems, Inc."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/3efaee9f-d7ed-3294-bfe6-a49ce2b3f8f4",
+              "name": "Acolyte Biomedica Ltd."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/8103edcf-5065-3c9e-aa9c-2c4f58f086c4",
+              "name": "Info-X, Inc."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/fe3c2bdd-49d6-3aed-9784-014dec8c7ac1",
+              "name": "Arizant, Inc."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/ccdf667d-573d-39d8-8f54-74b3e9470c2b",
+              "name": "Hornell International AB"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/1f9d8dbb-8008-3baf-a4a3-fc9575a68996",
+              "name": "Pouyet Communication India Pvt Ltd"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/f6ec0e9d-f193-39f5-be78-058c50627d34",
+              "name": "Meguiar's, Inc."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/e219083b-9f8b-3e69-be8c-2bd2b2f89432",
+              "name": "Advanced Information Technologies Ltd."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/8750185f-9f43-3bcd-bfd3-09761014da0a",
+              "name": "Diamond Productions, Inc."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/f448891b-6531-38a2-94a3-694f8311fd5a",
+              "name": "Dyneon LLC"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/39c4af60-8193-3bf9-aecf-d250089dc8f7",
+              "name": "Pymah Corp"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/74dc7617-4c4f-3b2a-ad6d-713e72a4b2f9",
+              "name": "GuardiaNet Systems, Inc."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/5fb873c7-2ed0-3fe8-a275-855d22c8704f",
+              "name": "Glareguard & Glaredefender Business"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/4e909c7d-e23f-3f13-bf8d-9a468fb51398",
+              "name": "Polymer Engineering Corp"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/d8ee0002-de90-3d17-8e61-3cd6e49c11f1",
+              "name": "ESPE Dental AG"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/f784228d-a180-3c28-8994-95b1ae82e4c3",
+              "name": "Emtech, Inc."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/5a6ac9db-ef84-330b-a9b4-4b5dc55d2aa4",
+              "name": "Datacron"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/741936d3-6c35-3777-8a52-bb687b0faa9d",
+              "name": "American Electronic Sign"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/abfe0414-ffaf-3826-9507-a61243b8ad17",
+              "name": "Quest Technologies, Inc."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/1777e3a2-6439-337b-99c5-8ff63be73b41",
+              "name": "Capital Safety Group Ltd."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/d7386074-c52d-3bad-a0af-12030392f9cf",
+              "name": "Erste Suse Verwaltung Gmbh"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/fccaf634-dd15-32e4-bb56-9ac4dc56776e",
+              "name": "EMFI SA"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/3221d226-9abd-37c8-8bb2-d0ace48e6745",
+              "name": "Ivera Medical Corp."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/17e7f825-e49a-39d3-a8d7-d591fe6a2b6c",
+              "name": "Aearo Technologies LLC"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/7b388394-44d5-340a-a6ff-b9e0fba1730b",
+              "name": "Lingualcare, Inc."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/d0c9e05c-e587-3d70-b54c-68d6fd78dfa2",
+              "name": "Brontes Technologies, Inc."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/6218e92d-371f-3310-9256-49a137c1e699",
+              "name": "3M Deutschland GmbH"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/98e64cd5-6d32-377e-b58b-94184751b549",
+              "name": "3M Cogent, Inc."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/16a520b4-6011-3111-9c31-188784cb427b",
+              "name": "3M Purification, Inc."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/0ba3f7a8-ca1e-31d4-9b0c-346a41582442",
+              "name": "Optical Systems"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/2b6c41f7-aefc-3cbd-a104-82ff1a3facf9",
+              "name": "3M Health Care, Inc."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/74bececf-3997-3c70-8de0-7e2025d4df28",
+              "name": "3M Canada Co."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/ceb329e9-6b77-3777-839b-9e78afaaa26f",
+              "name": "3M Interamerica, Inc."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/9faf57a1-4f34-37ae-9dce-56e43642d64e",
+              "name": "3M United Kingdom Plc"
+            },
+            {
+              "idFtId": "http://api.ft.com/things/a70bcf79-de95-3f19-b786-34f0b9341fa1",
+              "name": "3M India Ltd."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/e7388026-987b-38a0-8f2e-cb00f70fc3b7",
+              "name": "Robinson Nugent, Inc."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/894c69d5-7377-30ac-b18a-e58be6b9de75",
+              "name": "MicroTouch Systems, Inc."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/44a4e86f-20cb-36bc-96eb-89a8d98ccc09",
+              "name": "Ceradyne, Inc."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/b7687d09-df30-3ea2-848f-4c689626e892",
+              "name": "CodeRyte, Inc."
+            },
+            {
+              "idFtId": "http://api.ft.com/things/7202dc2f-d2db-308e-a765-0417f71441a9",
+              "name": "Advanced Information Technologies Corp."
+            }
+          ],
+          "people": [
+            {
+              "name": "George William Buckley",
+              "jobTitle": "Executive Chairman, President & CEO"
+            },
+            {
+              "name": "Inge G. Thulin",
+              "jobTitle": "Chairman, President & Chief Executive Officer"
+            },
+            {
+              "name": "Brad T. Sauer",
+              "jobTitle": "Executive Vice President-Industrial Business Group"
+            },
+            {
+              "name": "David W. Meline",
+              "jobTitle": "Chief Financial Officer & Senior Vice President"
+            },
+            {
+              "name": "Ivan K. Fong",
+              "jobTitle": "Senior VP-Legal Affairs & General Counsel"
+            },
+            {
+              "name": "Patrick D. Campbell",
+              "jobTitle": "Chief Financial Officer & Senior Vice President"
+            },
+            {
+              "name": "Robert S. Morrison",
+              "jobTitle": "Independent Director"
+            },
+            {
+              "name": "Edward A. Brennan",
+              "jobTitle": "Director"
+            },
+            {
+              "name": "Harold J. Wiens",
+              "jobTitle": "Executive Vice President-Industrial Business"
+            },
+            {
+              "name": "Jacqueline Berry",
+              "jobTitle": "Manager-Global Communications"
+            },
+            {
+              "name": "Vance D. Coffman",
+              "jobTitle": "Independent Director"
+            },
+            {
+              "name": "Abby Bailey",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Ahmet Muhtar Kent",
+              "jobTitle": "Independent Director"
+            },
+            {
+              "name": "Alan P. Norton",
+              "jobTitle": "Director-Information Technology"
+            },
+            {
+              "name": "Alex Yeros",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Alexandre Fourey",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Alfredo Viglienzoni",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Ali A. Moiz",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Alicia Patrick",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Alison Schell",
+              "jobTitle": "Vice President & General Manager-Renewable Energy"
+            },
+            {
+              "name": "Allen F. Jacobson",
+              "jobTitle": "Chairman & Chief Executive Officer"
+            },
+            {
+              "name": "Andrea Fiumicelli",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Andreas Joehle",
+              "jobTitle": "Marketing Manager"
+            },
+            {
+              "name": "Andrew B. Summerville",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Andrew J. Leon",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Andrew Metters",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Andrew R. Cipra",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Angela S. Lalor",
+              "jobTitle": "Senior Vice President-Human Resources"
+            },
+            {
+              "name": "Ann Marie Hanrahan",
+              "jobTitle": "VP-Global Compliance & Business Conduct"
+            },
+            {
+              "name": "Anssi Markku Kaleva Vanjoki",
+              "jobTitle": "Vice President-Sales"
+            },
+            {
+              "name": "Ashish K. Khandpur",
+              "jobTitle": "CTO, Senior Vice President-Research & Development"
+            },
+            {
+              "name": "Aulana L. Peters",
+              "jobTitle": "Independent Director"
+            },
+            {
+              "name": "Barry A. Labinger",
+              "jobTitle": "Divisional Vice President"
+            },
+            {
+              "name": "Bert S. Cross",
+              "jobTitle": "Chairman & Chief Executive Officer"
+            },
+            {
+              "name": "Bill Leonard",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Bill Smyth",
+              "jobTitle": "Business Manager"
+            },
+            {
+              "name": "Blaine Behringer",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Brad C. Webb",
+              "jobTitle": "Manager-Clinical Research"
+            },
+            {
+              "name": "Brian Miller",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Brian P. McCann",
+              "jobTitle": "Director-Sales & Marketing"
+            },
+            {
+              "name": "Bruce Budahn",
+              "jobTitle": "Treasurer"
+            },
+            {
+              "name": "Bruce Jermeland",
+              "jobTitle": "Director-Investor Relations"
+            },
+            {
+              "name": "Bruce William Tobin",
+              "jobTitle": "Vice President-Finance"
+            },
+            {
+              "name": "Carl Vause",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Carol R. Jensen",
+              "jobTitle": "Executive Director-Corporate Technology"
+            },
+            {
+              "name": "Carolyn Bates",
+              "jobTitle": "Assistant-Chief Intellectual Property Counsel"
+            },
+            {
+              "name": "Charles R. Kummeth",
+              "jobTitle": "Vice President-Medical Division"
+            },
+            {
+              "name": "Christina Lane",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Christine Fruechte",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Christopher D. Holmes",
+              "jobTitle": "Senior Vice President-Supply Chain"
+            },
+            {
+              "name": "Chuck Kelly",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Claudia Allison",
+              "jobTitle": "Technical Aid"
+            },
+            {
+              "name": "Collette Bunton",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Connie S. Thompson",
+              "jobTitle": "Head-Public Relations"
+            },
+            {
+              "name": "Craig Knighton",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Dale D. Fayerweather",
+              "jobTitle": "Advanced Technology Specialist"
+            },
+            {
+              "name": "Dale W. Lang",
+              "jobTitle": "Vice President"
+            },
+            {
+              "name": "Dan Alvarez",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Dan Bartlett",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Dan Chase",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Dan Darst",
+              "jobTitle": "Product Design Engineer"
+            },
+            {
+              "name": "Dan Mallin",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Dan Swartwood",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Dan Villas",
+              "jobTitle": "Accounts Manager"
+            },
+            {
+              "name": "Daniel J. Nicols",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Daniel K. Recinella",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Darrell John Wilk",
+              "jobTitle": "Manager-Sales & Marketing"
+            },
+            {
+              "name": "Daryl I. Skaar",
+              "jobTitle": "VP-Purchasing & Packaging Engineering"
+            },
+            {
+              "name": "Das Narayandas",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "David A. Krohn",
+              "jobTitle": "Director"
+            },
+            {
+              "name": "David B. Dillon",
+              "jobTitle": "Independent Director"
+            },
+            {
+              "name": "David Burger",
+              "jobTitle": "Business Director"
+            },
+            {
+              "name": "David Elkins",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "David G. Werpy",
+              "jobTitle": "Vice President & General Auditor"
+            },
+            {
+              "name": "David Stokoe",
+              "jobTitle": "Senior Manager"
+            },
+            {
+              "name": "David W. Powell",
+              "jobTitle": "Vice President-Marketing"
+            },
+            {
+              "name": "Debasish Gupta",
+              "jobTitle": "General Manager-Kenya"
+            },
+            {
+              "name": "Debra L. Wilfong",
+              "jobTitle": "Director-Research & Development"
+            },
+            {
+              "name": "Debra Rectenwald",
+              "jobTitle": "Vice President-Infection Prevention"
+            },
+            {
+              "name": "Derek DeScioli",
+              "jobTitle": "Manager-Global Key Accounts"
+            },
+            {
+              "name": "Diana M. Petty",
+              "jobTitle": "Senior Director-Human Resources"
+            },
+            {
+              "name": "Dick Blackader",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Don Chartrand",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Donald Joseph Barry",
+              "jobTitle": "Director-European Business"
+            },
+            {
+              "name": "Donna Fleming",
+              "jobTitle": "Head-Media Relations"
+            },
+            {
+              "name": "Douglas P. Astry",
+              "jobTitle": "Manager-Business Development"
+            },
+            {
+              "name": "Dwayne L. LaBrake",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "E. Duffy McDonald",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Ed Donohue",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Edgar Ober",
+              "jobTitle": "President"
+            },
+            {
+              "name": "Edgar Ober",
+              "jobTitle": "President"
+            },
+            {
+              "name": "Edward Michael Liddy",
+              "jobTitle": "Independent Director"
+            },
+            {
+              "name": "Edward P. DeRosa",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Edward R. McCracken",
+              "jobTitle": "Director"
+            },
+            {
+              "name": "Enzo Casati",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Eric D. Hammes",
+              "jobTitle": "Chief Accounting Officer, VP & Controller"
+            },
+            {
+              "name": "Eric Quint",
+              "jobTitle": "Chief Design Officer"
+            },
+            {
+              "name": "Eric Thomas",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "F. Alan Smith",
+              "jobTitle": "Director"
+            },
+            {
+              "name": "Fanna Haile-Selassie",
+              "jobTitle": "Head-Media Relations"
+            },
+            {
+              "name": "Frank P. Russomanno",
+              "jobTitle": "Director-European Business Unit"
+            },
+            {
+              "name": "Franklin R. Jeffrey",
+              "jobTitle": "Senior Physicist"
+            },
+            {
+              "name": "Frans van Rijn",
+              "jobTitle": "Manager"
+            },
+            {
+              "name": "Frederick J. Palensky",
+              "jobTitle": "Chief Technology Officer & Executive VP"
+            },
+            {
+              "name": "Gary M. Halleen",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Geoffrey C. Nicholson",
+              "jobTitle": "Chairman & Chief Executive Officer"
+            },
+            {
+              "name": "George M. C. Fisher",
+              "jobTitle": "Director"
+            },
+            {
+              "name": "George Petracek",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Geraint Jenkin",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Gerald D. Pint",
+              "jobTitle": "Group Vice President-Telecom Systems Group"
+            },
+            {
+              "name": "Gianni Tessitore",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Giulio Agostini",
+              "jobTitle": "Chief Financial Officer"
+            },
+            {
+              "name": "Gopal Sadagopal",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Grant R. Campany",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Gregg M. Larson",
+              "jobTitle": "Secretary, VP & Deputy General Counsel"
+            },
+            {
+              "name": "Gregory R. Page",
+              "jobTitle": "Director"
+            },
+            {
+              "name": "Guy Weinstein",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Hak Cheol Shin",
+              "jobTitle": "Executive Vice President-International Operations"
+            },
+            {
+              "name": "Harmeet Singh",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Harry Heltzer",
+              "jobTitle": "Chairman"
+            },
+            {
+              "name": "Harry Lee Lindberg",
+              "jobTitle": "Executive Vice President"
+            },
+            {
+              "name": "Henning Jakobsen",
+              "jobTitle": "Controller"
+            },
+            {
+              "name": "Henrik Gøthler",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Henry S. Bryan",
+              "jobTitle": "President"
+            },
+            {
+              "name": "Henry T. Madden",
+              "jobTitle": "Manager-Quality Control"
+            },
+            {
+              "name": "Herbert L. Henkel",
+              "jobTitle": "Independent Director"
+            },
+            {
+              "name": "Herman E. Nauwelaerts",
+              "jobTitle": "Vice President-Europe, Middle East & Africa"
+            },
+            {
+              "name": "Hermon W. Cable",
+              "jobTitle": "Second Vice President & General Manager"
+            },
+            {
+              "name": "Herve Gindre",
+              "jobTitle": "Vice President & General Manager"
+            },
+            {
+              "name": "Håkan Peter Follin",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Ian F. Hardgrove",
+              "jobTitle": "Senior VP-Communications & Enterprise Services"
+            },
+            {
+              "name": "Iga Hallberg",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "J. Danley Budd",
+              "jobTitle": "Vice President"
+            },
+            {
+              "name": "J. Marc Adam",
+              "jobTitle": "Vice President-Marketing"
+            },
+            {
+              "name": "J. Mark Borseth",
+              "jobTitle": "Treasurer & Vice President-Global Business Process"
+            },
+            {
+              "name": "J. Michael McQuade",
+              "jobTitle": "Vice President-Medical Division"
+            },
+            {
+              "name": "Jack Kirr",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Jack Moravcik",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Jacqueline A. Chase",
+              "jobTitle": "Senior Counsel-Legal Department"
+            },
+            {
+              "name": "Jacqueline Lobue",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "James B. Stake",
+              "jobTitle": "Executive Vice President-Enterprise Services"
+            },
+            {
+              "name": "James Barley",
+              "jobTitle": "Vice President–Regulatory Affairs"
+            },
+            {
+              "name": "James Bjelland",
+              "jobTitle": "Senior Project Manager"
+            },
+            {
+              "name": "James F. Brennan",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "James G. DelMauro",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "James Havener",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "James L. Bauman",
+              "jobTitle": "Executive VP-Electronics & Energy Business Group"
+            },
+            {
+              "name": "James M. Zappa",
+              "jobTitle": "Vice President & Compliance Officer"
+            },
+            {
+              "name": "James T. Mahan",
+              "jobTitle": "SVP-Engineering, Manufacturing & Logistics"
+            },
+            {
+              "name": "Janet L. Yeomans",
+              "jobTitle": "Treasurer"
+            },
+            {
+              "name": "Jasmine Jirele",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Jason Fuller",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Jay V. Ihlenfeld",
+              "jobTitle": "Senior Vice President-Asia Pacific Region"
+            },
+            {
+              "name": "Jean Lobey",
+              "jobTitle": "Executive Vice President-Safety & Security"
+            },
+            {
+              "name": "Jeff Layton",
+              "jobTitle": "Engineering Supervisor"
+            },
+            {
+              "name": "Jeff Schneider",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Jeffrey A. Chelstrom",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Jeffrey D. Witous",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Jeffrey Mills",
+              "jobTitle": "Marketing Supervisor"
+            },
+            {
+              "name": "Jeremy FriedLander",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Jerome Hamilton",
+              "jobTitle": "VP-Lean Six Sigma & Corporate Quality"
+            },
+            {
+              "name": "Jerry Baker",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Jerry E. Robertson",
+              "jobTitle": "Director & Executive VP-Life Sciences Sector"
+            },
+            {
+              "name": "Jerry F. Anderson",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Jerry Johnson",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Jerry Roane",
+              "jobTitle": "Design Engineer"
+            },
+            {
+              "name": "Jesse G. Singh",
+              "jobTitle": "Senior Vice President-Marketing & Sales"
+            },
+            {
+              "name": "Jim Farrell",
+              "jobTitle": "Independent Director"
+            },
+            {
+              "name": "Jim Graham",
+              "jobTitle": "Technical Manager"
+            },
+            {
+              "name": "Jim Tusa",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Joaquin Delgado",
+              "jobTitle": "Executive VP-Health Care Business Group"
+            },
+            {
+              "name": "Joel McComb",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "John Cornwell",
+              "jobTitle": "Director-Investor Relations"
+            },
+            {
+              "name": "John Dwan",
+              "jobTitle": "Co-Founder"
+            },
+            {
+              "name": "John Feikema",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "John J. Rockwell",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "John Karl Woodworth",
+              "jobTitle": "SVP-Corporate Supply Chain Operations"
+            },
+            {
+              "name": "John M. Sampson",
+              "jobTitle": "Vice President & GM-Pharmaceutical Division"
+            },
+            {
+              "name": "John Muilenburg",
+              "jobTitle": "Vice President-Human Resource Operations"
+            },
+            {
+              "name": "John W. Benson",
+              "jobTitle": "Executive Vice President-Health Care Markets"
+            },
+            {
+              "name": "Jon Brodd",
+              "jobTitle": "Manager-Business Development"
+            },
+            {
+              "name": "Jon T. Lindekugel",
+              "jobTitle": "Senior Vice President-Business Development"
+            },
+            {
+              "name": "Joseph E. Harlan",
+              "jobTitle": "Executive VP-Consumer & Office Business"
+            },
+            {
+              "name": "Julie Copeland",
+              "jobTitle": "Director"
+            },
+            {
+              "name": "Julie L. Bushman",
+              "jobTitle": "Senior Vice President-Information Technology"
+            },
+            {
+              "name": "Karen E. Welke",
+              "jobTitle": "Vice President-Medical Markets Group"
+            },
+            {
+              "name": "Karen M. Roche",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Kelly Ingham",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Kenneth Pearlman",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Kent J. Davies",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Kent Kalar",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Kevin A. Fleischhacker",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Kevin C. Tackaberry",
+              "jobTitle": "Human Resources Executive"
+            },
+            {
+              "name": "Kevin S. Ries",
+              "jobTitle": "Vice President & General Manager"
+            },
+            {
+              "name": "Kevin V. Rubey",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Kevin W. Sharer",
+              "jobTitle": "Director"
+            },
+            {
+              "name": "Kimberly Foster Price",
+              "jobTitle": "SVP-Corporate Communications & Enterprise Services"
+            },
+            {
+              "name": "Kristen M. Ludgate",
+              "jobTitle": "Vice President & Chief Compliance Officer"
+            },
+            {
+              "name": "Kristin Simoens",
+              "jobTitle": "Marketing Supervisor-Global Business Development"
+            },
+            {
+              "name": "Krzysztof K. Burhardt",
+              "jobTitle": "Vice President-Research & Development"
+            },
+            {
+              "name": "Kym Rowat",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Larry H. Coleman",
+              "jobTitle": "Senior Manager"
+            },
+            {
+              "name": "Leo Reynolds",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Lewis Lehr",
+              "jobTitle": "Chairman & Chief Executive Officer"
+            },
+            {
+              "name": "Linda G. Alvarado",
+              "jobTitle": "Independent Director"
+            },
+            {
+              "name": "Lisa K. McGrath",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Livio D. DeSimone",
+              "jobTitle": "Chairman & Chief Executive Officer"
+            },
+            {
+              "name": "Louis Wade Sullivan",
+              "jobTitle": "Director"
+            },
+            {
+              "name": "Lucius P. Ordway",
+              "jobTitle": "President"
+            },
+            {
+              "name": "M. Kay Grenz",
+              "jobTitle": "Vice President-Human Resources"
+            },
+            {
+              "name": "Manfred Puhlmann",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Marcy L. Marshall",
+              "jobTitle": "Analyst"
+            },
+            {
+              "name": "Margaret Mary Smyth",
+              "jobTitle": "Chief Accounting Officer & Vice President"
+            },
+            {
+              "name": "Mark Cheshire",
+              "jobTitle": "Systems Analyst"
+            },
+            {
+              "name": "Mark Glad",
+              "jobTitle": "Customer Operations Manager"
+            },
+            {
+              "name": "Mark L. Arnold",
+              "jobTitle": "Marketer"
+            },
+            {
+              "name": "Mark Miller",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Mark Patin",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Mark Skidmore",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Marlene M. McGrath",
+              "jobTitle": "Senior Vice President-Human Resources"
+            },
+            {
+              "name": "Marschall I. Smith",
+              "jobTitle": "SVP-Legal Affairs & General Counsel"
+            },
+            {
+              "name": "Martin Johan Edlund",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Martin Stuart",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Mary Ellen Walker",
+              "jobTitle": "General Manager-Building Safety Solutions"
+            },
+            {
+              "name": "Mary Sommerfeldt",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Matt McDowell",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Matthew Ginter",
+              "jobTitle": "Treasurer & Vice President-Investor Relations"
+            },
+            {
+              "name": "Matthew R. Gevaert",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Matthew R. Thomas",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Mauro Porcini",
+              "jobTitle": "Head-Global Product Design & Consumer Business"
+            },
+            {
+              "name": "Mel Gable",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Melanie Gray",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Michael A. Donahue",
+              "jobTitle": "Director"
+            },
+            {
+              "name": "Michael A. Kelly",
+              "jobTitle": "Executive Vice President-Electronics & Energy"
+            },
+            {
+              "name": "Michael Delaney",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Michael F. Roman",
+              "jobTitle": "Executive Vice President-Industrial Business Group"
+            },
+            {
+              "name": "Michael Fannin",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Michael G. Vale",
+              "jobTitle": "Executive VP-Consumer & Office Business"
+            },
+            {
+              "name": "Michael G. Zentner",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Michael J. Hammons",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Michael L. Eskew",
+              "jobTitle": "Lead Independent Director"
+            },
+            {
+              "name": "Michael R. Webb",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Michael Resnick",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Michael Smith",
+              "jobTitle": "Manager-Global Marketing Operations"
+            },
+            {
+              "name": "Michael Swindell",
+              "jobTitle": "Product Director"
+            },
+            {
+              "name": "Michael W. Downing",
+              "jobTitle": "Director-Medical Specialties Department"
+            },
+            {
+              "name": "Mick Sawka",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Mike DeBartolo",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Mike van Thiel",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Moe S. Nozari",
+              "jobTitle": "Executive VP-Consumer & Office Business"
+            },
+            {
+              "name": "Nancy Brown",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Neil Patil",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Nicholas C. Gangestad",
+              "jobTitle": "Chief Financial Officer & Senior Vice President"
+            },
+            {
+              "name": "Olaf Dany",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Patricia Ann Woertz",
+              "jobTitle": "Director"
+            },
+            {
+              "name": "Patrick Deconinck",
+              "jobTitle": "Senior Vice President-Western Europe"
+            },
+            {
+              "name": "Paul A. Keel",
+              "jobTitle": "Senior Vice President-Supply Chain"
+            },
+            {
+              "name": "Paul Angeli",
+              "jobTitle": "Engineering Manager"
+            },
+            {
+              "name": "Paul Bechel",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Paul D. Steece",
+              "jobTitle": "Vice President-Electrical Markets Division"
+            },
+            {
+              "name": "Paul G. Boynton",
+              "jobTitle": "Manager-Home Care Global Brand Division"
+            },
+            {
+              "name": "Paul N. Winberg",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Paul O’Toole",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Paul R. Zeller",
+              "jobTitle": "International Controller"
+            },
+            {
+              "name": "Paul van Dillen",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Paula George Tompkins",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Penny Destache",
+              "jobTitle": "Manager-Information Technology Infrastructure"
+            },
+            {
+              "name": "Pete Olson",
+              "jobTitle": "Member-Corporate Marketing Team"
+            },
+            {
+              "name": "Peter J. Moore",
+              "jobTitle": "Vice President & Regional Manager"
+            },
+            {
+              "name": "Peter W. Keeler",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Phil Johnson",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Philip A. Denny",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Philip W. Staggs",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Praveen Kankariya",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Rahul Sachdev",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Randall Hubin",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Raymond Herzog",
+              "jobTitle": "Chairman"
+            },
+            {
+              "name": "Ricardo Paul Vallejos",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Richard F. Ziegler",
+              "jobTitle": "Senior VP-Legal Affairs & General Counsel"
+            },
+            {
+              "name": "Richard L. Stover",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Richard S. Scheuing",
+              "jobTitle": "Development Engineer-Sarns Division"
+            },
+            {
+              "name": "Richard Stoebe",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Richard T. Sachse",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Rick Shand",
+              "jobTitle": "Operations Manager"
+            },
+            {
+              "name": "Riff Yeager",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Robert D. MacDonald",
+              "jobTitle": "Senior Vice President-Sales & Marketing"
+            },
+            {
+              "name": "Robert Fleming",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Robert J. Burgstahler",
+              "jobTitle": "SVP-Business Development & Corporate Services"
+            },
+            {
+              "name": "Robert J. Ulrich",
+              "jobTitle": "Independent Director"
+            },
+            {
+              "name": "Rodger C. Denton",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Rodney A. Young",
+              "jobTitle": "Head-Sales & Marketing"
+            },
+            {
+              "name": "Roger H. D. Lacey",
+              "jobTitle": "SVP-Strategy & Corporate Development"
+            },
+            {
+              "name": "Roger Neel",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Ronald A. Mitsch",
+              "jobTitle": "Vice Chairman & Executive Vice President"
+            },
+            {
+              "name": "Ronald G. Nelson",
+              "jobTitle": "Vice President & Controller"
+            },
+            {
+              "name": "Ronald M. Smith",
+              "jobTitle": "Human Resources Manager"
+            },
+            {
+              "name": "Ronald O. Baukol",
+              "jobTitle": "Executive Vice President-International Operations"
+            },
+            {
+              "name": "Ronald R. Belschner",
+              "jobTitle": "Vice President-Engineering Manufacturing"
+            },
+            {
+              "name": "Rosa M. Miller",
+              "jobTitle": "Vice President-Latin America"
+            },
+            {
+              "name": "Rozanne L. Ridgway",
+              "jobTitle": "Director"
+            },
+            {
+              "name": "Rusty Rosenberger",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "S. Kris Bandal",
+              "jobTitle": "Manager"
+            },
+            {
+              "name": "Sarah L. Williams",
+              "jobTitle": "Chief Communications Officer"
+            },
+            {
+              "name": "Sarah Tattersall",
+              "jobTitle": "Manager-Corporate Public Relations"
+            },
+            {
+              "name": "Sarahjane Steinbeck",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Satendar Bhatia",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Scott A. Huie",
+              "jobTitle": "Senior Engineer"
+            },
+            {
+              "name": "Scott A. Litman",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Scott Campbell",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Scott D. Krohn",
+              "jobTitle": "Treasurer & Vice President-Tax"
+            },
+            {
+              "name": "Scott Igl",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Scott Nelson",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Scott W. Kelley",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Sondra L. Barbour",
+              "jobTitle": "Independent Director"
+            },
+            {
+              "name": "Stan Orelove",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Stanford W. Crane",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Stefan Gabriel",
+              "jobTitle": "Vice President-New Ventures"
+            },
+            {
+              "name": "Steve Perkins",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Steve Ryan",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Steven J. Landwehr",
+              "jobTitle": "Executive Vice President"
+            },
+            {
+              "name": "Stig G. Eriksson",
+              "jobTitle": "International Director"
+            },
+            {
+              "name": "Subodh K. Kulkarni",
+              "jobTitle": "Senior Research Engineer"
+            },
+            {
+              "name": "Susan G. MacKay",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Susan K. Nestegard",
+              "jobTitle": "Business Director-Optical Components"
+            },
+            {
+              "name": "Sven Schreiber",
+              "jobTitle": "Engineer-Manufacturing Process"
+            },
+            {
+              "name": "Ted Smith",
+              "jobTitle": "Sales Director"
+            },
+            {
+              "name": "Terrence J. Quinn",
+              "jobTitle": "Manager"
+            },
+            {
+              "name": "Terri Sullivan",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Terry Collier",
+              "jobTitle": "Marketing Manager"
+            },
+            {
+              "name": "Terry Timmons",
+              "jobTitle": "Technical Director"
+            },
+            {
+              "name": "Thomas A. Boardman",
+              "jobTitle": "Assistant Secretary"
+            },
+            {
+              "name": "Thomas Chang",
+              "jobTitle": "Manager-Global Key Account"
+            },
+            {
+              "name": "Thomas G. Xydis",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Thomas K. Brown",
+              "jobTitle": "Independent Director"
+            },
+            {
+              "name": "Thomas Look",
+              "jobTitle": "Head-Product Development"
+            },
+            {
+              "name": "Thomas Marshall",
+              "jobTitle": "General Manager-Service Division"
+            },
+            {
+              "name": "Thomas Miller",
+              "jobTitle": "Chief Information Officer-Asia Pacific"
+            },
+            {
+              "name": "Thomas Rinehart",
+              "jobTitle": "Senior Research Scientist"
+            },
+            {
+              "name": "Thomas W. Rusch",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Timothy A. Rollman",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Timothy G. Staub",
+              "jobTitle": "Sales Representative"
+            },
+            {
+              "name": "Tom Hines",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Tomas Eisenberg",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Tony Stokes",
+              "jobTitle": "Vice President & General Manager-Automotive OEM"
+            },
+            {
+              "name": "Tory Teague",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Tracey C. Robinson",
+              "jobTitle": "Industrial Engineer"
+            },
+            {
+              "name": "Venkat V. Sharma",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Vera Arthur",
+              "jobTitle": "VP-Marketing & International Operations"
+            },
+            {
+              "name": "Victor Hicks",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "W. James McNerney",
+              "jobTitle": "Chairman & Chief Executive Officer"
+            },
+            {
+              "name": "Werner Zoellner",
+              "jobTitle": "General Manager"
+            },
+            {
+              "name": "William A. McGonagle",
+              "jobTitle": "Treasurer"
+            },
+            {
+              "name": "William G. Mavity",
+              "jobTitle": "Head-European Health Care Manufacturing Business"
+            },
+            {
+              "name": "William Hollyer",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "William J. Schmoll",
+              "jobTitle": "Treasurer & Vice President-Taxes"
+            },
+            {
+              "name": "William L. McKnight",
+              "jobTitle": "Chairman"
+            },
+            {
+              "name": "William Shaffer",
+              "jobTitle": "Plant Manager"
+            },
+            {
+              "name": "William Stockton",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "William T. Monahan",
+              "jobTitle": "Group Vice President"
+            },
+            {
+              "name": "William Teman",
+              "jobTitle": "Advanced Project Engineer"
+            },
+            {
+              "name": "Williams Boyce",
+              "jobTitle": "Director"
+            },
+            {
+              "name": "Wils Théagène",
+              "jobTitle": "Account Representative"
+            },
+            {
+              "name": "Yong Hsu",
+              "jobTitle": "Principal"
+            },
+            {
+              "name": "Yong-Kil Lee",
+              "jobTitle": "Marketing Manager"
+            },
+            {
+              "name": "Zarir H. Erani",
+              "jobTitle": "Principal"
+            }
+          ],
+          "industryClassification": "Diversified Industrials",
+          "_lastUpdatedDateTime": "2017-03-12T03:51:15.780Z"
+        },
+        "sort": [
+          "3M Japan Ltd."
+        ]
+      },
+      {
+        "_index": "v1",
+        "_type": "item",
+        "_id": "valuesearch-2-0030782",
+        "_score": null,
+        "_source": {
+          "address": "福岡市中央区薬院1-1-1 薬院ビジネスガーデン",
+          "country": "Japan",
+          "name": "4Cs Holdings Co., Ltd.",
+          "idNikkeiCode": "0030782",
+          "provenance": [
+            "valuesearch-2",
+            "https://needs.nikkei.co.jp:18991/sa/v1/json/corporate/overview/domestic?nikkei_code=0030782"
+          ],
+          "isListed": true,
+          "securityCode": "3726:TYO",
+          "url": "http://www.4cs-holdings.co.jp",
+          "incorporationDate": "2003-12-05T00:00:00.000Z",
+          "_lastUpdatedDateTime": "2017-03-11T09:51:07.817Z"
+        },
+        "sort": [
+          "4Cs Holdings Co., Ltd."
+        ]
+      },
+      {
+        "_index": "v1",
+        "_type": "item",
+        "_id": "valuesearch-3-0050258",
+        "_score": null,
+        "_source": {
+          "address": "東京都港区高輪2-15-8",
+          "country": "Japan",
+          "name": "4d Networks, Inc.",
+          "idNikkeiCode": "0050258",
+          "provenance": [
+            "valuesearch-3",
+            "https://needs.nikkei.co.jp:18991/sa/v1/json/corporate/overview/domestic?nikkei_code=0050258",
+            "https://api.ft.com/suggest"
+          ],
+          "isListed": false,
+          "url": "http://www.4dn.co.jp/",
+          "incorporationDate": "2000-04-04T00:00:00.000Z",
+          "idFtId": "http://api.ft.com/things/f2862556-4895-3ca8-aeb3-1076e41023e9",
+          "_lastUpdatedDateTime": "2017-03-10T01:51:11.049Z"
+        },
+        "sort": [
+          "4d Networks, Inc."
+        ]
+      },
+      {
+        "_index": "v1",
+        "_type": "item",
+        "_id": "valuesearch-3-0053167",
+        "_score": null,
+        "_source": {
+          "address": "東京都渋谷区恵比寿1-18-14 恵比寿ファーストスクエア",
+          "country": "Japan",
+          "name": "4travel, Inc.",
+          "idNikkeiCode": "0053167",
+          "provenance": [
+            "valuesearch-3",
+            "https://needs.nikkei.co.jp:18991/sa/v1/json/corporate/overview/domestic?nikkei_code=0053167"
+          ],
+          "isListed": false,
+          "url": "http://fortravel.jp/",
+          "incorporationDate": "2004-12-01T00:00:00.000Z",
+          "_lastUpdatedDateTime": "2017-03-14T03:51:27.732Z"
+        },
+        "sort": [
+          "4travel, Inc."
+        ]
+      },
+      {
+        "_index": "v1",
+        "_type": "item",
+        "_id": "valuesearch-3-0039807",
+        "_score": null,
+        "_source": {
+          "address": "東京都港区新橋5-13-7 フォーシーズビル",
+          "country": "Japan",
+          "name": "4’cs Corp.",
+          "idNikkeiCode": "0039807",
+          "provenance": [
+            "valuesearch-3",
+            "https://needs.nikkei.co.jp:18991/sa/v1/json/corporate/overview/domestic?nikkei_code=0039807"
+          ],
+          "isListed": false,
+          "url": null,
+          "incorporationDate": "1999-03-05T00:00:00.000Z",
+          "_lastUpdatedDateTime": "2017-03-15T05:51:40.034Z"
+        },
+        "sort": [
+          "4’cs Corp."
+        ]
+      },
+      {
+        "_index": "v1",
+        "_type": "item",
+        "_id": "valuesearch-3-0024211",
+        "_score": null,
+        "_source": {
+          "address": "仙台市青葉区本町2-15-1 ルナール仙台",
+          "country": "Japan",
+          "name": "77 Lease Co., Ltd.",
+          "idNikkeiCode": "0024211",
+          "provenance": [
+            "valuesearch-3",
+            "https://needs.nikkei.co.jp:18991/sa/v1/json/corporate/overview/domestic?nikkei_code=0024211"
+          ],
+          "isListed": false,
+          "url": null,
+          "incorporationDate": "1974-11-25T00:00:00.000Z",
+          "_lastUpdatedDateTime": "2017-03-15T23:51:38.161Z"
+        },
+        "sort": [
+          "77 Lease Co., Ltd."
+        ]
+      },
+      {
+        "_index": "v1",
+        "_type": "item",
+        "_id": "valuesearch-3-0072010",
+        "_score": null,
+        "_source": {
+          "address": "東京都中央区日本橋2-16-2 KDX日本橋216ビル",
+          "country": "Japan",
+          "name": "8 Securities Inc.",
+          "idNikkeiCode": "0072010",
+          "provenance": [
+            "valuesearch-3",
+            "https://needs.nikkei.co.jp:18991/sa/v1/json/corporate/overview/domestic?nikkei_code=0072010"
+          ],
+          "isListed": false,
+          "url": "www.8securities.co.jp",
+          "incorporationDate": "2001-12-25T00:00:00.000Z",
+          "_lastUpdatedDateTime": "2017-03-13T11:51:36.158Z"
+        },
+        "sort": [
+          "8 Securities Inc."
+        ]
+      },
+      {
+        "_index": "v1",
+        "_type": "item",
+        "_id": "valuesearch-3-0040619",
+        "_score": null,
+        "_source": {
+          "address": "横浜市神奈川区入江2-18 大口東口駅前ビル",
+          "country": "Japan",
+          "name": "99ichiba Co., Ltd.",
+          "idNikkeiCode": "0040619",
+          "provenance": [
+            "valuesearch-3",
+            "https://needs.nikkei.co.jp:18991/sa/v1/json/corporate/overview/domestic?nikkei_code=0040619"
+          ],
+          "isListed": false,
+          "url": null,
+          "incorporationDate": "2006-01-23T00:00:00.000Z",
+          "_lastUpdatedDateTime": "2017-03-13T22:51:29.533Z"
+        },
+        "sort": [
+          "99ichiba Co., Ltd."
+        ]
+      },
+      {
+        "_index": "v1",
+        "_type": "item",
+        "_id": "valuesearch-3-0050648",
+        "_score": null,
+        "_source": {
+          "address": "東京都中央区京橋2-7-14 ビュレックス京橋",
+          "country": "Japan",
+          "name": "@Stream Corp.",
+          "idNikkeiCode": "0050648",
+          "provenance": [
+            "valuesearch-3",
+            "https://needs.nikkei.co.jp:18991/sa/v1/json/corporate/overview/domestic?nikkei_code=0050648"
+          ],
+          "isListed": false,
+          "url": "http://www.atstream.co.jp/",
+          "incorporationDate": "2001-07-30T00:00:00.000Z",
+          "_lastUpdatedDateTime": "2017-03-18T17:51:46.674Z"
+        },
+        "sort": [
+          "@Stream Corp."
+        ]
+      },
+      {
+        "_index": "v1",
+        "_type": "item",
+        "_id": "valuesearch-2-0035637",
+        "_score": null,
+        "_source": {
+          "address": "埼玉県北本市朝日1-243",
+          "country": "Japan",
+          "name": "A & D Co., Ltd.",
+          "idNikkeiCode": "0035637",
+          "provenance": [
+            "valuesearch-2",
+            "https://needs.nikkei.co.jp:18991/sa/v1/json/corporate/overview/domestic?nikkei_code=0035637"
+          ],
+          "isListed": true,
+          "securityCode": "7745:TYO",
+          "url": "http://www.aandd.co.jp/",
+          "incorporationDate": "1977-05-06T00:00:00.000Z",
+          "_lastUpdatedDateTime": "2017-03-11T19:51:26.065Z"
+        },
+        "sort": [
+          "A & D Co., Ltd."
+        ]
+      },
+      {
+        "_index": "v1",
+        "_type": "item",
+        "_id": "valuesearch-2-0015431",
+        "_score": null,
+        "_source": {
+          "address": "東京都千代田区平河町2-16-1 平河町森タワー",
+          "country": "Japan",
+          "name": "A & I System Co., Ltd.",
+          "idNikkeiCode": "0015431",
+          "provenance": [
+            "valuesearch-2",
+            "https://needs.nikkei.co.jp:18991/sa/v1/json/corporate/overview/domestic?nikkei_code=0015431"
+          ],
+          "isListed": true,
+          "url": null,
+          "incorporationDate": "1987-05-01T00:00:00.000Z",
+          "_lastUpdatedDateTime": "2017-03-10T16:51:30.269Z"
+        },
+        "sort": [
+          "A & I System Co., Ltd."
+        ]
+      },
+      {
+        "_index": "v1",
+        "_type": "item",
+        "_id": "valuesearch-2-0006410",
+        "_score": null,
+        "_source": {
+          "address": "横浜市神奈川区金港町2-6 横浜プラザビル",
+          "country": "Japan",
+          "name": "A & T Corp.",
+          "idNikkeiCode": "0006410",
+          "provenance": [
+            "valuesearch-2",
+            "https://needs.nikkei.co.jp:18991/sa/v1/json/corporate/overview/domestic?nikkei_code=0006410"
+          ],
+          "isListed": true,
+          "securityCode": "6722:TYO",
+          "url": "http://www.aandt.co.jp/",
+          "incorporationDate": "1978-05-25T00:00:00.000Z",
+          "_lastUpdatedDateTime": "2017-03-10T08:51:19.424Z"
+        },
+        "sort": [
+          "A & T Corp."
+        ]
+      }
+    ]
+  }
+}

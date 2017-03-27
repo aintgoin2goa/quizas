@@ -8,7 +8,8 @@ describe('Quizas', function(){
 
 	var fixtures = {
 		ftStream: require('./fixtures/ft-stream.json'),
-		esArticle: require('./fixtures/es-article.json')
+		esArticle: require('./fixtures/es-article.json'),
+		esResults: require('./fixtures/es-results.json')
 	};
 
 	before(function(){
@@ -122,15 +123,11 @@ describe('Quizas', function(){
 		});
 
 		it('Should still read falsy values', function(){
-			var obj = {
-				foo : {
-					bar : false
-				}
-			};
-			var result = quizas(obj, 'foo.bar');
-			expect(result.hasValue).to.be.true;
-			expect(result.value).to.be.false;
-
+			var results = quizas(fixtures.esResults, 'hits.hits').pluck(['_source.isListed', 'isListed']);
+			expect(results).to.have.length(fixtures.esResults.hits.hits.length);
+			results.forEach(function(result){
+				expect(result).to.have.property('isListed');
+			})
 		});
 	})
 });

@@ -122,12 +122,12 @@ describe('Quizas', function(){
 		});
 
 		it('Should still read falsy values', function(){
-			const obj = {
+			var obj = {
 				foo : {
 					bar : false
 				}
 			};
-			const result = quizas(obj, 'foo.bar');
+			var result = quizas(obj, 'foo.bar');
 			expect(result.hasValue).to.be.true;
 			expect(result.value).to.be.false;
 

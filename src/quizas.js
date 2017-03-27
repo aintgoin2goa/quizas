@@ -10,7 +10,15 @@ function clone(obj){
 }
 
 function isSet(obj, prop){
-	return prop in obj && obj[prop] !==  null && typeof obj[prop] !== 'undefined';
+	var isARealValue = function(value){
+		return value !== null && typeof value !== 'undefined';
+	};
+
+	if(arguments.length === 1){
+		return isARealValue(obj);
+	}else{
+		return prop in obj && isARealValue(obj[prop]);
+	}
 }
 
 function deepRead(obj, path){
@@ -25,7 +33,7 @@ function deepRead(obj, path){
 	}
 
 	if(typeof path === 'string'){
-		return obj[path] ? {found:true, value:obj[path]} : {found:false, value:null};
+		return isSet(obj, path) ? {found:true, value:obj[path]} : {found:false, value:null};
 	}
 
 	for(var i=0, l=path.length; i<l; i++){
@@ -55,8 +63,11 @@ function deepWrite(obj, path, value){
 	}
 
 	for(var i=0, l=path.length; i<l; i++){
+		// we've reached the bottom - write the value
 		if(i === l-1){
 			obj[path[i]] = value;
+
+		// if the property is not already set, set it to an empty object and drill down
 		}else if(!isSet(obj, path[i])){
 			obj[path[i]] = {};
 			obj = obj[path[i]];
@@ -109,10 +120,9 @@ function quizas(obj, path) {
 
 						var q = quizas(item, prop.source);
 						var value = prop.pluck ? q.pluck.apply(q, prop.pluck) : q.value;
-						if(value){
+						if(isSet(value)){
 							plucked = deepWrite(plucked, prop.target, value);
 						}
-
 					});
 
 					return plucked;

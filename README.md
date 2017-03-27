@@ -37,7 +37,7 @@ Boolean - true is the path given to the function resulted in a value, false if n
 #### `.value`
 The value if one was found, `null` if not
 
-#### `.extract(...props)`
+#### `.extract(...props):Object`
 If `value` is an object this will extract the following properties from it and return a new object.  It will not alter the source object. If `value` is null, this will return an empty object.  For example:
 ```
 var obj = {
@@ -68,7 +68,7 @@ var result = quizas(obj, 'foo.bar').extract(['prop1', 'one'], ['prop3', 'two']);
 // result === {one:'1',two:'2'}
 ```
 
-#### `.pluck(...props)`
+#### `.pluck(...props):Array`
 Similar to `extract()` except this is for arrays of objects.  When `value` is an array this will loop through the array grabbing the given properties from each element.  Example:
 ```
 var obj = {
@@ -82,5 +82,22 @@ var obj = {
 }
 var result = quizas(obj, 'foo.bar').pluck(['prop1', 'one'], 'prop3')
 // result === [{'one':'1', 'prop3:'3'}, {'one':'1', 'prop3:'3'}, {'one':'1', 'prop3:'3'}];
+```
+
+#### `.copy(target:Object):Object`
+If `value` is not null add it to `target` and return a new object.  Note: **this will not alter target but return a new object**
+
+### Support
+
+This is written using pure ES5 so should work in most places.  Tested in:
+* Node 4
+* Node 6
+* IE9
+* IE11
+* Edge 13
+* iOS9
+* Firefox, Chrome and Safari on a mac
+
+Not tested on android as I don't have one and Suacelabs won't let me use theirs.  It should work pretty much everywhere, though - if it doesn't let me know!
 
 

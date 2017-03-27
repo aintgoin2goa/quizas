@@ -119,6 +119,18 @@ describe('Quizas', function(){
 		it('Should be able to cope with not being passed and object', function(){
 			var result = quizas(null, 'prop');
 			expect(result.hasValue).to.be.false;
-		})
+		});
+
+		it('Should still read falsy values', function(){
+			const obj = {
+				foo : {
+					bar : false
+				}
+			};
+			const result = quizas(obj, 'foo.bar');
+			expect(result.hasValue).to.be.true;
+			expect(result.value).to.be.false;
+
+		});
 	})
 });

@@ -129,5 +129,13 @@ describe('Quizas', function(){
 				expect(result).to.have.property('isListed');
 			})
 		});
+
+		it('Should return target object when copying null value', function(){
+			var target = {foo:'bar'};
+			var data = {blah: 'hat'};
+			var result = quizas(data, 'non.existant').copy(target, 'newProp');
+			expect(result).to.exist;
+			expect(result).to.deep.equal(target);
+		})
 	})
 });

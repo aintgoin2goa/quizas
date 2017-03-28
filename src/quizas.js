@@ -99,6 +99,8 @@ function quizas(obj, path) {
 			value: function(target, prop){
 				if(result.found){
 					return deepWrite(target, prop, result.value);
+				}else{
+					return clone(target);
 				}
 			}
 		},

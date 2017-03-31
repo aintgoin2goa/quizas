@@ -115,6 +115,27 @@ describe('Quizas', function(){
 		expect(result).to.deep.equal(expected);
 	});
 
+	it('Should be able to transform values whilst extracting', function(){
+		var transform = function(date){
+			return new Date(date).toString();
+		};
+		const expected = transform(fixtures.esArticle._source._lastUpdatedDateTime);
+		const result = quizas(fixtures.esArticle, '_source').extract({source:'_lastUpdatedDateTime', target:'date', transform:transform});
+		expect(result).to.have.property('date');
+		expect(result.date).to.equal(expected);
+	});
+
+	it('Should be able to transform values whilst plucking', function(){
+		var transform = function(date){
+			return new Date(date).toString();
+		};
+		var expected = fixtures.esResults.hits.hits.map(function(hit){
+			return {date:transform(hit._source._lastUpdatedDateTime)};
+		});
+		var result = quizas(fixtures.esResults, 'hits.hits').pluck({source:'_source._lastUpdatedDateTime', target:'date', transform:transform})
+		expect(result).to.deep.equal(expected);
+	});
+
 	describe('Bugs', function() {
 
 		it('Should be able to cope with not being passed and object', function(){

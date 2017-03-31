@@ -122,6 +122,10 @@ function quizas(obj, path) {
 
 						var q = quizas(item, prop.source);
 						var value = prop.pluck ? q.pluck.apply(q, prop.pluck) : q.value;
+						if(isSet(value) && prop.transform){
+							value = prop.transform(value);
+						}
+
 						if(isSet(value)){
 							plucked = deepWrite(plucked, prop.target, value);
 						}
@@ -148,7 +152,11 @@ function quizas(obj, path) {
 
 					var q = quizas(result.value, prop.source);
 					var value = prop.pluck ? q.pluck.apply(q, prop.pluck) : q.value;
-					if(value){
+					if(isSet(value) && prop.transform){
+						value = prop.transform(value);
+					}
+
+					if(isSet(value)){
 						extracted = deepWrite(extracted, prop.target, value);
 					}
 				});

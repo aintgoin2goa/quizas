@@ -119,8 +119,8 @@ describe('Quizas', function(){
 		var transform = function(date){
 			return new Date(date).toString();
 		};
-		const expected = transform(fixtures.esArticle._source._lastUpdatedDateTime);
-		const result = quizas(fixtures.esArticle, '_source').extract({source:'_lastUpdatedDateTime', target:'date', transform:transform});
+		var expected = transform(fixtures.esArticle._source._lastUpdatedDateTime);
+		var result = quizas(fixtures.esArticle, '_source').extract({source:'_lastUpdatedDateTime', target:'date', transform:transform});
 		expect(result).to.have.property('date');
 		expect(result.date).to.equal(expected);
 	});

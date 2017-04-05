@@ -5,6 +5,8 @@ install:
 lint:
 	jshint src/
 
+unit-test: test-build test-node
+
 test-node:
 	mocha
 
@@ -14,7 +16,7 @@ test-browser:
 test-build:
 	browserify test/quizas.spec.js > test/quizas.built.js
 
-test: lint test-node test-build test-browser
+test: lint test-build test-node test-browser
 
 
 deploy:

@@ -157,6 +157,15 @@ describe('Quizas', function(){
 			var result = quizas(data, 'non.existant').copy(target, 'newProp');
 			expect(result).to.exist;
 			expect(result).to.deep.equal(target);
+		});
+
+		it('Should not die when encountering a non-object halfway down', function(){
+			var data = {foo: {bar : 'bar'}};
+			var result;
+			expect(function(){
+				result = quizas(data, 'foo.bar.baz');
+			}).not.to.throw();
+			expect(result.hasValue).to.be.false;
 		})
 	})
 });

@@ -14,8 +14,10 @@ function isSet(obj, prop){
 		return value !== null && typeof value !== 'undefined';
 	};
 
-	if(arguments.length === 1){
+	if(arguments.length === 1) {
 		return isARealValue(obj);
+	}else if(typeof obj === 'string'){
+		return false;
 	}else{
 		return prop in obj && isARealValue(obj[prop]);
 	}
@@ -32,7 +34,7 @@ function deepRead(obj, path){
 		path = path.split('.');
 	}
 
-	if(typeof path === 'string'){
+	if(typeof path !== 'object'){
 		return isSet(obj, path) ? {found:true, value:obj[path]} : {found:false, value:null};
 	}
 

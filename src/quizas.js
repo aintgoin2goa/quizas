@@ -1,6 +1,8 @@
 "use strict";
 /*globals module */
 
+var FIND_REGEX = /([\w]+)([=])"([\w ]+)"/i;
+
 function isObject(obj){
 	return obj === Object(obj);
 }
@@ -23,6 +25,23 @@ function isSet(obj, prop){
 	}
 }
 
+function find(arr, findStr){
+	var findOptions = FIND_REGEX.exec(findStr);
+	var left = findOptions[1].replace(/\|/g, '.');
+	var right = findOptions[3];
+	var operator = findOptions[2];
+	return arr.filter(function(a){
+		var value = deepRead(a, left);
+		if(!value.found){
+			return false;
+		}
+
+		switch(operator){
+			case '=': return value.value === right;
+		}
+	});
+}
+
 function deepRead(obj, path){
 	if(typeof obj !== 'object' || obj === null){
 		return {found:false,value:null};
@@ -40,7 +59,9 @@ function deepRead(obj, path){
 
 	for(var i=0, l=path.length; i<l; i++){
 		var prop = path[i];
-		if(obj && isSet(obj, prop)){
+		if(prop.match(FIND_REGEX)){
+			obj = find(obj, prop);
+		}else if(obj && isSet(obj, prop)){
 			obj = obj[prop];
 		}else{
 			found = false;
@@ -135,6 +156,24 @@ function quizas(obj, path) {
 
 					return plucked;
 				});
+			}
+		},
+		'pluckValues': {
+			value: function(prop){
+				if(!result.found || !Array.isArray(result.value)){
+					return [];
+				}
+
+				var values = [];
+
+				result.value.forEach(function(r){
+					var itemResult = deepRead(r, prop);
+					if(itemResult.found){
+						values.push(itemResult.value);
+					}
+				});
+
+				return values;
 			}
 		},
 		'extract': {

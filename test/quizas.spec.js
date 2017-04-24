@@ -9,7 +9,8 @@ describe('Quizas', function(){
 	var fixtures = {
 		ftStream: require('./fixtures/ft-stream.json'),
 		esArticle: require('./fixtures/es-article.json'),
-		esResults: require('./fixtures/es-results.json')
+		esResults: require('./fixtures/es-results.json'),
+		ontotext: require('./fixtures/ontotext-document.json')
 	};
 
 	before(function(){
@@ -133,6 +134,13 @@ describe('Quizas', function(){
 			return {date:transform(hit._source._lastUpdatedDateTime)};
 		});
 		var result = quizas(fixtures.esResults, 'hits.hits').pluck({source:'_source._lastUpdatedDateTime', target:'date', transform:transform})
+		expect(result).to.deep.equal(expected);
+	});
+
+	it('Should be able to pluck a single property and return an array of values', function() {
+		var expected = fixtures.esResults.hits.hits.map(function(h){ return h._id});
+		var result = quizas(fixtures.esResults, 'hits.hits').pluckValues('_id');
+		expect(result).to.be.an('array');
 		expect(result).to.deep.equal(expected);
 	});
 

@@ -34,6 +34,13 @@ describe('Quizas', function(){
 		expect(result.value).to.be.null;
 	});
 
+	it('Should return the default value if one is given and nothing else is found', function(){
+		var defaultValue = 'default';
+		var result = quizas(fixtures.ftStream, 'items.0.nonexistantkey.0.attributes.0.key', defaultValue);
+		expect(result.hasValue).to.be.true;
+		expect(result.value).to.equal(defaultValue);
+	});
+
 	it('Should be able to copy values to a different object', function(){
 		var expected = {title:'Ride-hailing app Grab to hire 800 developers'};
 		var target = {};

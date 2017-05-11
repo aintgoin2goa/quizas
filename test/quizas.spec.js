@@ -152,6 +152,14 @@ describe('Quizas', function(){
 		expect(result).to.deep.equal(expected);
 	});
 
+	it('Should be able to map a value if it\'s an array', function() {
+		var mapFunc = function(h){ return h._id; };
+		var expected = fixtures.esResults.hits.hits.map(mapFunc);
+		var result = quizas(fixtures.esResults, 'hits.hits').map(mapFunc);
+		expect(result).to.be.an('array');
+		expect(result).to.deep.equal(expected);
+	});
+
 	describe('Bugs', function() {
 
 		it('Should be able to cope with not being passed and object', function(){

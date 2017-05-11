@@ -213,6 +213,15 @@ function quizas(obj, path) {
 
 				return result.value.filter(func);
 			}
+		},
+		'map': {
+			value: function(func){
+				if(!result.found || !Array.isArray(result.value)){
+					return [];
+				}
+
+				return result.value.map(func);
+			}
 		}
 	});
 }

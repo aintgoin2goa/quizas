@@ -1,0 +1,21 @@
+{
+  "name": "quizas",
+  "description": "A sort-of monad for reading values from objects",
+  "main": "src/quizas",
+  "authors": [
+    "aintgoin2goa"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "monad",
+    "object"
+  ],
+  "homepage": "https://github.com/aintgoin2goa/quizas",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
